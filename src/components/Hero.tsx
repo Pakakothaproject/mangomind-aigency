@@ -50,7 +50,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
                 >
-                    <a href="#contact" className="btn-primary">
+                    <a href="https://wa.me/8801911730703" target="_blank" rel="noopener noreferrer" className="btn-primary">
                         {t.hero.ctaPrimary}
                         <ArrowRight size={16} />
                     </a>

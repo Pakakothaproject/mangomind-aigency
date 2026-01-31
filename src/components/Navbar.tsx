@@ -56,7 +56,7 @@ const Navbar = () => {
           <a href="https://www.mangomindbd.com" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem', background: 'transparent', border: '1px solid var(--accent-orange)', color: 'var(--accent-orange)' }}>
             Try AI Apps
           </a>
-          <a href="/#contact" className="btn-primary" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem' }}>
+          <a href="https://wa.me/8801911730703" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem' }}>
             {t.nav.ctaButton}
           </a>
         </div>
@@ -100,7 +100,7 @@ const Navbar = () => {
               <Globe size={16} />
               {t.nav.languageToggle}
             </button>
-            <a href="/#contact" className="text-gradient" style={{ fontWeight: 700 }} onClick={() => setIsOpen(false)}>{t.nav.ctaButton}</a>
+            <a href="https://wa.me/8801911730703" target="_blank" rel="noopener noreferrer" className="text-gradient" style={{ fontWeight: 700 }} onClick={() => setIsOpen(false)}>{t.nav.ctaButton}</a>
           </motion.div>
         )}
       </AnimatePresence>

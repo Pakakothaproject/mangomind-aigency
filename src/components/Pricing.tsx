@@ -52,7 +52,7 @@ const Pricing = () => {
                             </li>
                         </ul>
 
-                        <a href="#contact" className="btn-outline" style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                        <a href="https://wa.me/8801911730703" target="_blank" rel="noopener noreferrer" className="btn-outline" style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
                             Get Optimized
                         </a>
                     </motion.div>
@@ -96,7 +96,7 @@ const Pricing = () => {
                             </li>
                         </ul>
 
-                        <a href="#contact" className="btn-primary" style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                        <a href="https://wa.me/8801911730703" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
                             Contact for Agent <ArrowRight size={16} />
                         </a>
                     </motion.div>
