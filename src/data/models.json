@@ -1,0 +1,4638 @@
+[
+  {
+    "id": "allenai/olmo-2-0325-32b-instruct",
+    "name": "Olmo 2 32B Instruct 📝",
+    "category": "Allenai",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/allenai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/5667695?s=200&v=4",
+    "input_cost": "0.0500",
+    "output_cost": "0.2000"
+  },
+  {
+    "id": "allenai/olmo-3-32b-think",
+    "name": "Olmo 3 32B Think",
+    "category": "Allenai",
+    "tags": [
+      "T2T",
+      "66k limit"
+    ],
+    "image": "/models/brands/allenai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/5667695?s=200&v=4",
+    "input_cost": "0.1500",
+    "output_cost": "0.5000"
+  },
+  {
+    "id": "allenai/olmo-3-7b-instruct",
+    "name": "Olmo 3 7B Instruct 📝",
+    "category": "Allenai",
+    "tags": [
+      "T2T",
+      "66k limit"
+    ],
+    "image": "/models/brands/allenai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/5667695?s=200&v=4",
+    "input_cost": "0.1000",
+    "output_cost": "0.2000"
+  },
+  {
+    "id": "allenai/olmo-3-7b-think",
+    "name": "Olmo 3 7B Think",
+    "category": "Allenai",
+    "tags": [
+      "T2T",
+      "66k limit"
+    ],
+    "image": "/models/brands/allenai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/5667695?s=200&v=4",
+    "input_cost": "0.1200",
+    "output_cost": "0.2000"
+  },
+  {
+    "id": "allenai/olmo-3.1-32b-think",
+    "name": "Olmo 3.1 32B Think",
+    "category": "Allenai",
+    "tags": [
+      "T2T",
+      "66k limit"
+    ],
+    "image": "/models/brands/allenai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/5667695?s=200&v=4",
+    "input_cost": "0.1500",
+    "output_cost": "0.5000"
+  },
+  {
+    "id": "amazon/nova-2-lite-v1",
+    "name": "Nova 2 Lite",
+    "category": "Amazon",
+    "tags": [
+      "T2T",
+      "1000k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1024px-Amazon_icon.svg.png",
+    "input_cost": "0.3000",
+    "output_cost": "2.5000"
+  },
+  {
+    "id": "amazon/nova-lite-v1",
+    "name": "Nova Lite 1.0",
+    "category": "Amazon",
+    "tags": [
+      "T2T",
+      "300k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1024px-Amazon_icon.svg.png",
+    "input_cost": "0.0600",
+    "output_cost": "0.2400"
+  },
+  {
+    "id": "amazon/nova-micro-v1",
+    "name": "Nova Micro 1.0 {}",
+    "category": "Amazon",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1024px-Amazon_icon.svg.png",
+    "input_cost": "0.0350",
+    "output_cost": "0.1400"
+  },
+  {
+    "id": "amazon/nova-premier-v1",
+    "name": "Nova Premier 1.0 💸",
+    "category": "Amazon",
+    "tags": [
+      "T2T",
+      "1000k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1024px-Amazon_icon.svg.png",
+    "input_cost": "2.5000",
+    "output_cost": "12.5000"
+  },
+  {
+    "id": "amazon/nova-pro-v1",
+    "name": "Nova Pro 1.0",
+    "category": "Amazon",
+    "tags": [
+      "T2T",
+      "300k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1024px-Amazon_icon.svg.png",
+    "input_cost": "0.8000",
+    "output_cost": "3.2000"
+  },
+  {
+    "id": "anthropic/claude-3-haiku",
+    "name": "Claude 3 Haiku",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "200k limit"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "0.2500",
+    "output_cost": "1.2500"
+  },
+  {
+    "id": "anthropic/claude-3.5-haiku",
+    "name": "Claude 3.5 Haiku {}",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "0.8000",
+    "output_cost": "4.0000"
+  },
+  {
+    "id": "anthropic/claude-3.5-haiku-20241022",
+    "name": "Claude 3.5 Haiku (2024-10-22) {}",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "0.8000",
+    "output_cost": "4.0000"
+  },
+  {
+    "id": "anthropic/claude-3.5-sonnet",
+    "name": "Claude 3.5 Sonnet {} 💸",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "6.0000",
+    "output_cost": "30.0000"
+  },
+  {
+    "id": "anthropic/claude-3.7-sonnet",
+    "name": "Claude 3.7 Sonnet {} 💸",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "3.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "anthropic/claude-3.7-sonnet:thinking",
+    "name": "Claude 3.7 Sonnet (thinking) {} 💸",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "3.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "anthropic/claude-haiku-4.5",
+    "name": "Claude Haiku 4.5 🧠 {} 💵",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "1.0000",
+    "output_cost": "5.0000"
+  },
+  {
+    "id": "anthropic/claude-opus-4",
+    "name": "Claude Opus 4 {} 💸",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "15.0000",
+    "output_cost": "75.0000"
+  },
+  {
+    "id": "anthropic/claude-opus-4.1",
+    "name": "Claude Opus 4.1 🧠 {} 💸",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "15.0000",
+    "output_cost": "75.0000"
+  },
+  {
+    "id": "anthropic/claude-opus-4.5",
+    "name": "Claude Opus 4.5 {} 💸",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "5.0000",
+    "output_cost": "25.0000"
+  },
+  {
+    "id": "anthropic/claude-sonnet-4",
+    "name": "Claude Sonnet 4 {} 💸",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "1000k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "3.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "anthropic/claude-sonnet-4.5",
+    "name": "Claude Sonnet 4.5 {} 💸",
+    "category": "Anthropic",
+    "tags": [
+      "T2T",
+      "1000k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/anthropic.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anthropic_logo.svg/1024px-Anthropic_logo.svg.png",
+    "input_cost": "3.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "arcee-ai/coder-large",
+    "name": "Coder Large {}",
+    "category": "Arcee Ai",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/arcee-ai.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736185/images_zm5hvp.jpg",
+    "input_cost": "0.5000",
+    "output_cost": "0.8000"
+  },
+  {
+    "id": "arcee-ai/trinity-mini",
+    "name": "Trinity Mini",
+    "category": "Arcee Ai",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/arcee-ai.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736185/images_zm5hvp.jpg",
+    "input_cost": "0.0450",
+    "output_cost": "0.1500"
+  },
+  {
+    "id": "arcee-ai/virtuoso-large",
+    "name": "Virtuoso Large",
+    "category": "Arcee Ai",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/arcee-ai.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736185/images_zm5hvp.jpg",
+    "input_cost": "0.7500",
+    "output_cost": "1.2000"
+  },
+  {
+    "id": "baidu/ernie-4.5-21b-a3b",
+    "name": "ERNIE 4.5 21B A3B",
+    "category": "Baidu",
+    "tags": [
+      "T2T",
+      "120k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/baidu.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736068/baidu-logo-png_seeklogo-611575_m7c0lo.png",
+    "input_cost": "0.0700",
+    "output_cost": "0.2800"
+  },
+  {
+    "id": "baidu/ernie-4.5-21b-a3b-thinking",
+    "name": "ERNIE 4.5 21B A3B Thinking 🧠 {}",
+    "category": "Baidu",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Thinking",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/baidu.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736068/baidu-logo-png_seeklogo-611575_m7c0lo.png",
+    "input_cost": "0.0700",
+    "output_cost": "0.2800"
+  },
+  {
+    "id": "baidu/ernie-4.5-300b-a47b",
+    "name": "ERNIE 4.5 300B A47B",
+    "category": "Baidu",
+    "tags": [
+      "T2T",
+      "123k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/baidu.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736068/baidu-logo-png_seeklogo-611575_m7c0lo.png",
+    "input_cost": "0.2800",
+    "output_cost": "1.1000"
+  },
+  {
+    "id": "baidu/ernie-4.5-vl-28b-a3b",
+    "name": "ERNIE 4.5 VL 28B A3B 🖼️",
+    "category": "Baidu",
+    "tags": [
+      "Moe",
+      "T2T",
+      "Multimodal",
+      "30k limit"
+    ],
+    "image": "/models/brands/baidu.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736068/baidu-logo-png_seeklogo-611575_m7c0lo.png",
+    "input_cost": "0.1400",
+    "output_cost": "0.5600"
+  },
+  {
+    "id": "baidu/ernie-4.5-vl-424b-a47b",
+    "name": "ERNIE 4.5 VL 424B A47B 🖼️ 🧠",
+    "category": "Baidu",
+    "tags": [
+      "Moe",
+      "T2T",
+      "Multimodal",
+      "Thinking",
+      "123k limit"
+    ],
+    "image": "/models/brands/baidu.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736068/baidu-logo-png_seeklogo-611575_m7c0lo.png",
+    "input_cost": "0.4200",
+    "output_cost": "1.2500"
+  },
+  {
+    "id": "bytedance-seed/seed-1.6",
+    "name": "Seed 1.6 🧠",
+    "category": "Bytedance",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/bytedance.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/ByteDance_Logo.svg/1024px-ByteDance_Logo.svg.png",
+    "input_cost": "0.2500",
+    "output_cost": "2.0000"
+  },
+  {
+    "id": "bytedance-seed/seed-1.6-flash",
+    "name": "Seed 1.6 Flash 🧠",
+    "category": "Bytedance",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/bytedance.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/ByteDance_Logo.svg/1024px-ByteDance_Logo.svg.png",
+    "input_cost": "0.0750",
+    "output_cost": "0.3000"
+  },
+  {
+    "id": "bytedance/ui-tars-1.5-7b",
+    "name": "UI-TARS 7B 🖼️",
+    "category": "Bytedance",
+    "tags": [
+      "128k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/bytedance.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/ByteDance_Logo.svg/1024px-ByteDance_Logo.svg.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.2000"
+  },
+  {
+    "id": "cohere/command-a",
+    "name": "Command A {}",
+    "category": "Cohere",
+    "tags": [
+      "T2T",
+      "256k limit",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/cohere.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/cohere/icon.png",
+    "input_cost": "2.5000",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "cohere/command-r-08-2024",
+    "name": "Command R (08-2024)",
+    "category": "Cohere",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/cohere.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/cohere/icon.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "cohere/command-r-plus-08-2024",
+    "name": "Command R+ (08-2024)",
+    "category": "Cohere",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/cohere.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/cohere/icon.png",
+    "input_cost": "2.5000",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "cohere/command-r7b-12-2024",
+    "name": "Command R7B (12-2024)",
+    "category": "Cohere",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/cohere.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/cohere/icon.png",
+    "input_cost": "0.0375",
+    "output_cost": "0.1500"
+  },
+  {
+    "id": "deepcogito/cogito-v2-preview-llama-109b-moe",
+    "name": "Cogito V2 Preview Llama 109B 🧠 {}",
+    "category": "Deepcogito",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/deepcogito.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736042/deep_cogito_logo_lm3cas.jpg",
+    "input_cost": "0.1800",
+    "output_cost": "0.5900"
+  },
+  {
+    "id": "deepcogito/cogito-v2-preview-llama-405b",
+    "name": "Cogito V2 Preview Llama 405B",
+    "category": "Deepcogito",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/deepcogito.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736042/deep_cogito_logo_lm3cas.jpg",
+    "input_cost": "3.5000",
+    "output_cost": "3.5000"
+  },
+  {
+    "id": "deepcogito/cogito-v2-preview-llama-70b",
+    "name": "Cogito V2 Preview Llama 70B",
+    "category": "Deepcogito",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/deepcogito.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736042/deep_cogito_logo_lm3cas.jpg",
+    "input_cost": "0.8800",
+    "output_cost": "0.8800"
+  },
+  {
+    "id": "deepcogito/cogito-v2.1-671b",
+    "name": "Cogito v2.1 671B {}",
+    "category": "Deepcogito",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/deepcogito.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1767736042/deep_cogito_logo_lm3cas.jpg",
+    "input_cost": "1.2500",
+    "output_cost": "1.2500"
+  },
+  {
+    "id": "deepseek/deepseek-chat",
+    "name": "DeepSeek V3 {}",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "164k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.3000",
+    "output_cost": "1.2000"
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3-0324",
+    "name": "DeepSeek V3 0324",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "164k limit"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.1900",
+    "output_cost": "0.8700"
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3.1",
+    "name": "DeepSeek V3.1 🧠 {}",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.7500"
+  },
+  {
+    "id": "deepseek/deepseek-prover-v2",
+    "name": "DeepSeek Prover V2",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "164k limit"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.5000",
+    "output_cost": "2.1800"
+  },
+  {
+    "id": "deepseek/deepseek-r1",
+    "name": "R1",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "164k limit"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.7000",
+    "output_cost": "2.4000"
+  },
+  {
+    "id": "deepseek/deepseek-r1-0528",
+    "name": "R1 0528",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "164k limit"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.4000",
+    "output_cost": "1.7500"
+  },
+  {
+    "id": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "name": "DeepSeek R1 0528 Qwen3 8B 🧠",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.0600",
+    "output_cost": "0.0900"
+  },
+  {
+    "id": "deepseek/deepseek-r1-0528:free",
+    "name": "R1 0528 (free)",
+    "category": "Deepseek",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "164k limit"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "deepseek/deepseek-r1-distill-llama-70b",
+    "name": "R1 Distill Llama 70B",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.0300",
+    "output_cost": "0.1100"
+  },
+  {
+    "id": "deepseek/deepseek-r1-distill-qwen-14b",
+    "name": "R1 Distill Qwen 14B",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.1500"
+  },
+  {
+    "id": "deepseek/deepseek-r1-distill-qwen-32b",
+    "name": "R1 Distill Qwen 32B",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.2700",
+    "output_cost": "0.2700"
+  },
+  {
+    "id": "deepseek/deepseek-v3.1-terminus",
+    "name": "DeepSeek V3.1 Terminus 🧠 {}",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "164k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.2100",
+    "output_cost": "0.7900"
+  },
+  {
+    "id": "deepseek/deepseek-v3.1-terminus:exacto",
+    "name": "DeepSeek V3.1 Terminus (exacto) 🧠 {}",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "164k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.2100",
+    "output_cost": "0.7900"
+  },
+  {
+    "id": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek V3.2",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "164k limit"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.2500",
+    "output_cost": "0.3800"
+  },
+  {
+    "id": "deepseek/deepseek-v3.2-exp",
+    "name": "DeepSeek V3.2 Exp {}",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "164k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.2100",
+    "output_cost": "0.3200"
+  },
+  {
+    "id": "deepseek/deepseek-v3.2-speciale",
+    "name": "DeepSeek V3.2 Speciale {}",
+    "category": "Deepseek",
+    "tags": [
+      "T2T",
+      "164k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/deepseek.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.2700",
+    "output_cost": "0.4100"
+  },
+  {
+    "id": "arcee-ai/trinity-mini:free",
+    "name": "Trinity Mini (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/arcee-ai.png",
+    "original_image": "https://res.cloudinary.com/dx2l1ri8h/image/upload/v1767917771/styled-image_16_lbvlr1.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "name": "Gemini 2.0 Flash Experimental (free) {}",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "1049k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "google/gemma-3-12b-it:free",
+    "name": "Gemma 3 12B (free) 🖼️",
+    "category": "Free",
+    "tags": [
+      "33k limit",
+      "T2T",
+      "Free Tier",
+      "Multimodal"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "google/gemma-3-27b-it:free",
+    "name": "Gemma 3 27B (free) 🖼️",
+    "category": "Free",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Free Tier",
+      "Multimodal"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "google/gemma-3-4b-it:free",
+    "name": "Gemma 3 4B (free) 🖼️",
+    "category": "Free",
+    "tags": [
+      "33k limit",
+      "T2T",
+      "Free Tier",
+      "Multimodal"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "google/gemma-3n-e2b-it:free",
+    "name": "Gemma 3n 2B (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "8k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "google/gemma-3n-e4b-it:free",
+    "name": "Gemma 3n 4B (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "kwaipilot/kat-coder-pro:free",
+    "name": "KAT-Coder-Pro V1 (free) {}",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "256k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/kwaipilot.png",
+    "original_image": "https://res.cloudinary.com/dx2l1ri8h/image/upload/v1767917771/styled-image_16_lbvlr1.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "meta-llama/llama-3.1-405b-instruct:free",
+    "name": "Llama 3.1 405B Instruct (free) 📝",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/meta-llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "meta-llama/llama-3.2-3b-instruct:free",
+    "name": "Llama 3.2 3B Instruct (free) 📝",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "131k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/meta-llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "meta-llama/llama-3.3-70b-instruct:free",
+    "name": "Llama 3.3 70B Instruct (free) 📝",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "131k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/meta-llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "mistralai/devstral-2512:free",
+    "name": "Devstral 2 2512 (free) {}",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "262k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/mistralai.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "mistralai/mistral-7b-instruct:free",
+    "name": "Mistral 7B Instruct (free) 📝",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/mistralai.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "mistralai/mistral-small-3.1-24b-instruct:free",
+    "name": "Mistral Small 3.1 24B (free) 🖼️",
+    "category": "Free",
+    "tags": [
+      "128k limit",
+      "T2T",
+      "Free Tier",
+      "Multilingual",
+      "Multimodal"
+    ],
+    "image": "/models/brands/mistralai.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "nex-agi/deepseek-v3.1-nex-n1:free",
+    "name": "DeepSeek V3.1 Nex N1 (free) {}",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "131k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/nex-agi.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "name": "Nemotron 3 Nano 30B A3B (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "256k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/nvidia.png",
+    "original_image": "https://res.cloudinary.com/dx2l1ri8h/image/upload/v1767917771/styled-image_16_lbvlr1.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "nvidia/nemotron-nano-12b-v2-vl:free",
+    "name": "Nemotron Nano 12B 2 VL (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/nvidia.png",
+    "original_image": "https://res.cloudinary.com/dx2l1ri8h/image/upload/v1767917771/styled-image_16_lbvlr1.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "nvidia/nemotron-nano-9b-v2:free",
+    "name": "Nemotron Nano 9B V2 (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/nvidia.png",
+    "original_image": "https://res.cloudinary.com/dx2l1ri8h/image/upload/v1767917771/styled-image_16_lbvlr1.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "openai/gpt-oss-120b:free",
+    "name": "gpt-oss-120b (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "131k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "openai/gpt-oss-20b:free",
+    "name": "gpt-oss-20b (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "131k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "qwen/qwen-2.5-vl-7b-instruct:free",
+    "name": "Qwen2.5-VL 7B Instruct (free) 📝",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "33k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "qwen/qwen3-4b:free",
+    "name": "Qwen3 4B (free) 🧠",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "41k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "qwen/qwen3-coder:free",
+    "name": "Qwen3 Coder 480B A35B (free) {}",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "262k limit",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "tngtech/deepseek-r1t-chimera:free",
+    "name": "DeepSeek R1T Chimera (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "164k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/tngtech.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "tngtech/deepseek-r1t2-chimera:free",
+    "name": "DeepSeek R1T2 Chimera (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "164k limit"
+    ],
+    "image": "/models/brands/tngtech.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/deepseek/icon.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "tngtech/tng-r1t-chimera:free",
+    "name": "R1T Chimera (free)",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "164k limit"
+    ],
+    "image": "/models/brands/tngtech.png",
+    "original_image": "https://res.cloudinary.com/dx2l1ri8h/image/upload/v1767917771/styled-image_16_lbvlr1.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "xiaomi/mimo-v2-flash:free",
+    "name": "MiMo-V2-Flash (free) 🧠 {}",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "262k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/xiaomi.png",
+    "original_image": "https://res.cloudinary.com/dx2l1ri8h/image/upload/v1767917771/styled-image_16_lbvlr1.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "z-ai/glm-4.5-air:free",
+    "name": "GLM 4.5 Air (free) 🧠",
+    "category": "Free",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "131k limit",
+      "Thinking",
+      "Moe"
+    ],
+    "image": "/models/brands/z-ai.png",
+    "original_image": "https://res.cloudinary.com/dx2l1ri8h/image/upload/v1767917771/styled-image_16_lbvlr1.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "google/gemini-2.0-flash-001",
+    "name": "Gemini 2.0 Flash {}",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "google/gemini-2.0-flash-lite-001",
+    "name": "Gemini 2.0 Flash Lite",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0750",
+    "output_cost": "0.3000"
+  },
+  {
+    "id": "google/gemini-2.5-flash",
+    "name": "Gemini 2.5 Flash 🧠 {}",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.3000",
+    "output_cost": "2.5000"
+  },
+  {
+    "id": "google/gemini-2.5-flash-lite",
+    "name": "Gemini 2.5 Flash Lite 🧠",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "name": "Gemini 2.5 Flash Lite Preview 09-2025 🧠",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "google/gemini-2.5-flash-preview-09-2025",
+    "name": "Gemini 2.5 Flash Preview 09-2025 🧠 {}",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.3000",
+    "output_cost": "2.5000"
+  },
+  {
+    "id": "google/gemini-2.5-pro",
+    "name": "Gemini 2.5 Pro 🧠 {}",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "1.2500",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "google/gemini-2.5-pro-preview",
+    "name": "Gemini 2.5 Pro Preview 06-05 🧠 {}",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "1.2500",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "google/gemini-2.5-pro-preview-05-06",
+    "name": "Gemini 2.5 Pro Preview 05-06 🧠 {}",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "1.2500",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "google/gemini-3-flash-preview",
+    "name": "Gemini 3 Flash Preview 🧠 {}",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.5000",
+    "output_cost": "3.0000"
+  },
+  {
+    "id": "google/gemini-3-pro-preview",
+    "name": "Gemini 3 Pro Preview {} 💸",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "1049k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "2.0000",
+    "output_cost": "12.0000"
+  },
+  {
+    "id": "google/gemma-2-27b-it",
+    "name": "Gemma 2 27B",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.6500",
+    "output_cost": "0.6500"
+  },
+  {
+    "id": "google/gemma-2-9b-it",
+    "name": "Gemma 2 9B",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0300",
+    "output_cost": "0.0900"
+  },
+  {
+    "id": "google/gemma-3-12b-it",
+    "name": "Gemma 3 12B 🖼️",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0300",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "google/gemma-3-27b-it",
+    "name": "Gemma 3 27B 🖼️",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0360",
+    "output_cost": "0.0640"
+  },
+  {
+    "id": "google/gemma-3-4b-it",
+    "name": "Gemma 3 4B 🖼️",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "Multimodal",
+      "96k limit"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0170",
+    "output_cost": "0.0682"
+  },
+  {
+    "id": "google/gemma-3n-e4b-it",
+    "name": "Gemma 3n 4B",
+    "category": "Google",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/google.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png",
+    "input_cost": "0.0200",
+    "output_cost": "0.0400"
+  },
+  {
+    "id": "meta-llama/llama-3-70b-instruct",
+    "name": "Llama 3 70B Instruct 📝",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.3000",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "meta-llama/llama-3-8b-instruct",
+    "name": "Llama 3 8B Instruct 📝",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.0300",
+    "output_cost": "0.0600"
+  },
+  {
+    "id": "meta-llama/llama-3.1-405b",
+    "name": "Llama 3.1 405B (base)",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "4.0000",
+    "output_cost": "4.0000"
+  },
+  {
+    "id": "meta-llama/llama-3.1-405b-instruct",
+    "name": "Llama 3.1 405B Instruct 📝",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "10k limit"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "3.5000",
+    "output_cost": "3.5000"
+  },
+  {
+    "id": "meta-llama/llama-3.1-70b-instruct",
+    "name": "Llama 3.1 70B Instruct 📝",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.4000",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "meta-llama/llama-3.1-8b-instruct",
+    "name": "Llama 3.1 8B Instruct 📝",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "16k limit"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.0200",
+    "output_cost": "0.0500"
+  },
+  {
+    "id": "meta-llama/llama-3.2-11b-vision-instruct",
+    "name": "Llama 3.2 11B Vision Instruct 🖼️ 📝",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.0490",
+    "output_cost": "0.0490"
+  },
+  {
+    "id": "meta-llama/llama-3.2-1b-instruct",
+    "name": "Llama 3.2 1B Instruct 📝",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "60k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.0270",
+    "output_cost": "0.2000"
+  },
+  {
+    "id": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Llama 3.2 3B Instruct 📝",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.0200",
+    "output_cost": "0.0200"
+  },
+  {
+    "id": "meta-llama/llama-3.2-90b-vision-instruct",
+    "name": "Llama 3.2 90B Vision Instruct 🖼️ 📝",
+    "category": "Llama",
+    "tags": [
+      "33k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.3500",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Llama 3.3 70B Instruct 📝",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.3200"
+  },
+  {
+    "id": "meta-llama/llama-4-maverick",
+    "name": "Llama 4 Maverick 🖼️",
+    "category": "Llama",
+    "tags": [
+      "Moe",
+      "1049k limit",
+      "T2T",
+      "Multimodal",
+      "Multilingual"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "meta-llama/llama-4-scout",
+    "name": "Llama 4 Scout",
+    "category": "Llama",
+    "tags": [
+      "T2T",
+      "328k limit",
+      "Multilingual",
+      "Moe"
+    ],
+    "image": "/models/brands/llama.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/800px-Meta-Logo.png",
+    "input_cost": "0.0800",
+    "output_cost": "0.3000"
+  },
+  {
+    "id": "arcee-ai/maestro-reasoning",
+    "name": "Mangomind Think",
+    "category": "Mangomind",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/mangomind.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1763830048/styled-image_-_2025-11-22T041941.708_jlfhyc.png",
+    "input_cost": "0.9000",
+    "output_cost": "3.3000"
+  },
+  {
+    "id": "arcee-ai/spotlight",
+    "name": "MangoMind Hadi 🖼️",
+    "category": "Mangomind",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/mangomind.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1763830048/styled-image_-_2025-11-22T041941.708_jlfhyc.png",
+    "input_cost": "0.1800",
+    "output_cost": "0.1800"
+  },
+  {
+    "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+    "name": "Mangomind Uncensored (free)",
+    "category": "Mangomind",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/mangomind.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1763830048/styled-image_-_2025-11-22T041941.708_jlfhyc.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "gryphe/mythomax-l2-13b",
+    "name": "Mangomind 13B",
+    "category": "Mangomind",
+    "tags": [
+      "T2T",
+      "4k limit"
+    ],
+    "image": "/models/brands/mangomind.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1763830048/styled-image_-_2025-11-22T041941.708_jlfhyc.png",
+    "input_cost": "0.0600",
+    "output_cost": "0.0600"
+  },
+  {
+    "id": "liquid/lfm2-8b-a1b",
+    "name": "Mangomind Smart",
+    "category": "Mangomind",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/mangomind.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1763830048/styled-image_-_2025-11-22T041941.708_jlfhyc.png",
+    "input_cost": "0.0500",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "opengvlab/internvl3-78b",
+    "name": "Mangomind Cheap",
+    "category": "Mangomind",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/mangomind.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1763830048/styled-image_-_2025-11-22T041941.708_jlfhyc.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.3900"
+  },
+  {
+    "id": "tencent/hunyuan-a13b-instruct",
+    "name": "Mangomind Huanyun {}",
+    "category": "Mangomind",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/mangomind.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1763830048/styled-image_-_2025-11-22T041941.708_jlfhyc.png",
+    "input_cost": "0.1400",
+    "output_cost": "0.5700"
+  },
+  {
+    "id": "microsoft/phi-4",
+    "name": "Phi 4",
+    "category": "Microsoft",
+    "tags": [
+      "T2T",
+      "16k limit"
+    ],
+    "image": "/models/brands/microsoft.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png",
+    "input_cost": "0.0600",
+    "output_cost": "0.1400"
+  },
+  {
+    "id": "microsoft/phi-4-multimodal-instruct",
+    "name": "Phi 4 Multimodal Instruct 📝",
+    "category": "Microsoft",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/microsoft.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png",
+    "input_cost": "0.0500",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "microsoft/phi-4-reasoning-plus",
+    "name": "Phi 4 Reasoning Plus",
+    "category": "Microsoft",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/microsoft.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png",
+    "input_cost": "0.0700",
+    "output_cost": "0.3500"
+  },
+  {
+    "id": "microsoft/wizardlm-2-8x22b",
+    "name": "WizardLM-2 8x22B",
+    "category": "Microsoft",
+    "tags": [
+      "T2T",
+      "66k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/microsoft.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png",
+    "input_cost": "0.4800",
+    "output_cost": "0.4800"
+  },
+  {
+    "id": "minimax/minimax-01",
+    "name": "MiniMax-01",
+    "category": "Minimax",
+    "tags": [
+      "T2T",
+      "1000k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/minimax.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1764264592/194880281_h1rxg4.jpg",
+    "input_cost": "0.2000",
+    "output_cost": "1.1000"
+  },
+  {
+    "id": "minimax/minimax-m1",
+    "name": "MiniMax M1",
+    "category": "Minimax",
+    "tags": [
+      "T2T",
+      "1000k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/minimax.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1764264592/194880281_h1rxg4.jpg",
+    "input_cost": "0.4000",
+    "output_cost": "2.2000"
+  },
+  {
+    "id": "minimax/minimax-m2",
+    "name": "MiniMax M2 {}",
+    "category": "Minimax",
+    "tags": [
+      "T2T",
+      "197k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/minimax.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1764264592/194880281_h1rxg4.jpg",
+    "input_cost": "0.2000",
+    "output_cost": "1.0000"
+  },
+  {
+    "id": "minimax/minimax-m2.1",
+    "name": "MiniMax M2.1 {}",
+    "category": "Minimax",
+    "tags": [
+      "T2T",
+      "197k limit",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/minimax.png",
+    "original_image": "https://res.cloudinary.com/dy80ftu9k/image/upload/v1764264592/194880281_h1rxg4.jpg",
+    "input_cost": "0.1200",
+    "output_cost": "0.4800"
+  },
+  {
+    "id": "mistralai/codestral-2508",
+    "name": "Codestral 2508 {}",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "256k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.3000",
+    "output_cost": "0.9000"
+  },
+  {
+    "id": "mistralai/devstral-2512",
+    "name": "Devstral 2 2512 {}",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0500",
+    "output_cost": "0.2200"
+  },
+  {
+    "id": "mistralai/devstral-medium",
+    "name": "Devstral Medium",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.4000",
+    "output_cost": "2.0000"
+  },
+  {
+    "id": "mistralai/devstral-small",
+    "name": "Devstral Small 1.1 {}",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0700",
+    "output_cost": "0.2800"
+  },
+  {
+    "id": "mistralai/devstral-small-2505",
+    "name": "Devstral Small 2505 🖼️ {}",
+    "category": "Mistral",
+    "tags": [
+      "Coding",
+      "128k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0600",
+    "output_cost": "0.1200"
+  },
+  {
+    "id": "mistralai/ministral-14b-2512",
+    "name": "Ministral 3 14B 2512 🖼️",
+    "category": "Mistral",
+    "tags": [
+      "262k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.2000",
+    "output_cost": "0.2000"
+  },
+  {
+    "id": "mistralai/ministral-3b",
+    "name": "Ministral 3B",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0400",
+    "output_cost": "0.0400"
+  },
+  {
+    "id": "mistralai/ministral-3b-2512",
+    "name": "Ministral 3 3B 2512 🖼️",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "mistralai/ministral-8b",
+    "name": "Ministral 8B",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "mistralai/ministral-8b-2512",
+    "name": "Ministral 3 8B 2512 🖼️",
+    "category": "Mistral",
+    "tags": [
+      "262k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.1500"
+  },
+  {
+    "id": "mistralai/mistral-7b-instruct",
+    "name": "Mistral 7B Instruct 📝",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0280",
+    "output_cost": "0.0540"
+  },
+  {
+    "id": "mistralai/mistral-7b-instruct-v0.1",
+    "name": "Mistral 7B Instruct v0.1 📝",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "3k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.1100",
+    "output_cost": "0.1900"
+  },
+  {
+    "id": "mistralai/mistral-7b-instruct-v0.2",
+    "name": "Mistral 7B Instruct v0.2 📝",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.2000",
+    "output_cost": "0.2000"
+  },
+  {
+    "id": "mistralai/mistral-7b-instruct-v0.3",
+    "name": "Mistral 7B Instruct v0.3 📝",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.2000",
+    "output_cost": "0.2000"
+  },
+  {
+    "id": "mistralai/mistral-large",
+    "name": "Mistral Large {} 💵",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "2.0000",
+    "output_cost": "6.0000"
+  },
+  {
+    "id": "mistralai/mistral-large-2407",
+    "name": "Mistral Large 2407 {} 💵",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "2.0000",
+    "output_cost": "6.0000"
+  },
+  {
+    "id": "mistralai/mistral-large-2411",
+    "name": "Mistral Large 2411 💵",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "2.0000",
+    "output_cost": "6.0000"
+  },
+  {
+    "id": "mistralai/mistral-large-2512",
+    "name": "Mistral Large 3 2512",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "262k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.5000",
+    "output_cost": "1.5000"
+  },
+  {
+    "id": "mistralai/mistral-medium-3",
+    "name": "Mistral Medium 3 {}",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.4000",
+    "output_cost": "2.0000"
+  },
+  {
+    "id": "mistralai/mistral-medium-3.1",
+    "name": "Mistral Medium 3.1 {}",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.4000",
+    "output_cost": "2.0000"
+  },
+  {
+    "id": "mistralai/mistral-nemo",
+    "name": "Mistral Nemo",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0200",
+    "output_cost": "0.0400"
+  },
+  {
+    "id": "mistralai/mistral-saba",
+    "name": "Saba",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.2000",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "mistralai/mistral-small-24b-instruct-2501",
+    "name": "Mistral Small 3",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0300",
+    "output_cost": "0.1100"
+  },
+  {
+    "id": "mistralai/mistral-small-3.1-24b-instruct",
+    "name": "Mistral Small 3.1 24B 🖼️",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multimodal",
+      "Multilingual"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0300",
+    "output_cost": "0.1100"
+  },
+  {
+    "id": "mistralai/mistral-small-3.2-24b-instruct",
+    "name": "Mistral Small 3.2 24B 🖼️ {}",
+    "category": "Mistral",
+    "tags": [
+      "Coding",
+      "T2T",
+      "131k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.0600",
+    "output_cost": "0.1800"
+  },
+  {
+    "id": "mistralai/mistral-small-creative",
+    "name": "Mistral Small Creative",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.3000"
+  },
+  {
+    "id": "mistralai/mistral-tiny",
+    "name": "Mistral Tiny",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.2500",
+    "output_cost": "0.2500"
+  },
+  {
+    "id": "mistralai/mixtral-8x22b-instruct",
+    "name": "Mixtral 8x22B Instruct {} 📝 💵",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "66k limit",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "2.0000",
+    "output_cost": "6.0000"
+  },
+  {
+    "id": "mistralai/mixtral-8x7b-instruct",
+    "name": "Mixtral 8x7B Instruct 📝",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.5400",
+    "output_cost": "0.5400"
+  },
+  {
+    "id": "mistralai/pixtral-12b",
+    "name": "Pixtral 12B 🖼️",
+    "category": "Mistral",
+    "tags": [
+      "33k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "mistralai/pixtral-large-2411",
+    "name": "Pixtral Large 2411 🖼️ 💵",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "2.0000",
+    "output_cost": "6.0000"
+  },
+  {
+    "id": "mistralai/voxtral-small-24b-2507",
+    "name": "Voxtral Small 24B 2507",
+    "category": "Mistral",
+    "tags": [
+      "T2T",
+      "32k limit"
+    ],
+    "image": "/models/brands/mistral.png",
+    "original_image": "https://logo.svgcdn.com/logos/mistral-ai.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.3000"
+  },
+  {
+    "id": "moonshotai/kimi-dev-72b",
+    "name": "Kimi Dev 72B",
+    "category": "Moonshotai",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/moonshotai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6880db470a0594986d6aca31_1704352802668%202.webp",
+    "input_cost": "0.2900",
+    "output_cost": "1.1500"
+  },
+  {
+    "id": "moonshotai/kimi-k2",
+    "name": "Kimi K2 0711 {}",
+    "category": "Moonshotai",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/moonshotai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6880db470a0594986d6aca31_1704352802668%202.webp",
+    "input_cost": "0.5000",
+    "output_cost": "2.4000"
+  },
+  {
+    "id": "moonshotai/kimi-k2-0905",
+    "name": "Kimi K2 0905 {}",
+    "category": "Moonshotai",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/moonshotai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6880db470a0594986d6aca31_1704352802668%202.webp",
+    "input_cost": "0.3900",
+    "output_cost": "1.9000"
+  },
+  {
+    "id": "moonshotai/kimi-k2-0905:exacto",
+    "name": "Kimi K2 0905 (exacto) {}",
+    "category": "Moonshotai",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/moonshotai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6880db470a0594986d6aca31_1704352802668%202.webp",
+    "input_cost": "0.6000",
+    "output_cost": "2.5000"
+  },
+  {
+    "id": "moonshotai/kimi-k2-thinking",
+    "name": "Kimi K2 Thinking 🧠 {}",
+    "category": "Moonshotai",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/moonshotai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6880db470a0594986d6aca31_1704352802668%202.webp",
+    "input_cost": "0.3200",
+    "output_cost": "0.4800"
+  },
+  {
+    "id": "moonshotai/kimi-k2:free",
+    "name": "Kimi K2 0711 (free) {}",
+    "category": "Moonshotai",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "33k limit",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/moonshotai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6880db470a0594986d6aca31_1704352802668%202.webp",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "nousresearch/deephermes-3-mistral-24b-preview",
+    "name": "DeepHermes 3 Mistral 24B Preview 🧠",
+    "category": "Nousresearch",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/nousresearch.png",
+    "original_image": "https://res.cloudinary.com/dho5purny/image/upload/v1760397100/app/134168893.png",
+    "input_cost": "0.0200",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "nousresearch/hermes-2-pro-llama-3-8b",
+    "name": "Hermes 2 Pro - Llama-3 8B",
+    "category": "Nousresearch",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/nousresearch.png",
+    "original_image": "https://res.cloudinary.com/dho5purny/image/upload/v1760397100/app/134168893.png",
+    "input_cost": "0.0250",
+    "output_cost": "0.0800"
+  },
+  {
+    "id": "nousresearch/hermes-3-llama-3.1-405b",
+    "name": "Hermes 3 405B Instruct 📝",
+    "category": "Nousresearch",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/nousresearch.png",
+    "original_image": "https://res.cloudinary.com/dho5purny/image/upload/v1760397100/app/134168893.png",
+    "input_cost": "1.0000",
+    "output_cost": "1.0000"
+  },
+  {
+    "id": "nousresearch/hermes-3-llama-3.1-405b:free",
+    "name": "Hermes 3 405B Instruct (free) 📝",
+    "category": "Nousresearch",
+    "tags": [
+      "Free Tier",
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/nousresearch.png",
+    "original_image": "https://res.cloudinary.com/dho5purny/image/upload/v1760397100/app/134168893.png",
+    "input_cost": "0.0000",
+    "output_cost": "0.0000"
+  },
+  {
+    "id": "nousresearch/hermes-3-llama-3.1-70b",
+    "name": "Hermes 3 70B Instruct 📝",
+    "category": "Nousresearch",
+    "tags": [
+      "T2T",
+      "66k limit"
+    ],
+    "image": "/models/brands/nousresearch.png",
+    "original_image": "https://res.cloudinary.com/dho5purny/image/upload/v1760397100/app/134168893.png",
+    "input_cost": "0.3000",
+    "output_cost": "0.3000"
+  },
+  {
+    "id": "nousresearch/hermes-4-405b",
+    "name": "Hermes 4 405B",
+    "category": "Nousresearch",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/nousresearch.png",
+    "original_image": "https://res.cloudinary.com/dho5purny/image/upload/v1760397100/app/134168893.png",
+    "input_cost": "1.0000",
+    "output_cost": "3.0000"
+  },
+  {
+    "id": "nousresearch/hermes-4-70b",
+    "name": "Hermes 4 70B {}",
+    "category": "Nousresearch",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/nousresearch.png",
+    "original_image": "https://res.cloudinary.com/dho5purny/image/upload/v1760397100/app/134168893.png",
+    "input_cost": "0.1100",
+    "output_cost": "0.3800"
+  },
+  {
+    "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+    "name": "Llama 3.1 Nemotron 70B Instruct 📝",
+    "category": "Nvidia",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/nvidia.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_logo.svg/1024px-NVIDIA_logo.svg.png",
+    "input_cost": "1.2000",
+    "output_cost": "1.2000"
+  },
+  {
+    "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+    "name": "Llama 3.1 Nemotron Ultra 253B v1 🧠",
+    "category": "Nvidia",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/nvidia.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_logo.svg/1024px-NVIDIA_logo.svg.png",
+    "input_cost": "0.6000",
+    "output_cost": "1.8000"
+  },
+  {
+    "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+    "name": "Llama 3.3 Nemotron Super 49B V1.5 {}",
+    "category": "Nvidia",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/nvidia.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_logo.svg/1024px-NVIDIA_logo.svg.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "nvidia/nemotron-3-nano-30b-a3b",
+    "name": "Nemotron 3 Nano 30B A3B",
+    "category": "Nvidia",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/nvidia.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_logo.svg/1024px-NVIDIA_logo.svg.png",
+    "input_cost": "0.0600",
+    "output_cost": "0.2400"
+  },
+  {
+    "id": "nvidia/nemotron-nano-12b-v2-vl",
+    "name": "Nemotron Nano 12B 2 VL",
+    "category": "Nvidia",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/nvidia.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_logo.svg/1024px-NVIDIA_logo.svg.png",
+    "input_cost": "0.2000",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "nvidia/nemotron-nano-9b-v2",
+    "name": "Nemotron Nano 9B V2",
+    "category": "Nvidia",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/nvidia.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_logo.svg/1024px-NVIDIA_logo.svg.png",
+    "input_cost": "0.0400",
+    "output_cost": "0.1600"
+  },
+  {
+    "id": "openai/chatgpt-4o-latest",
+    "name": "ChatGPT-4o 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "5.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "openai/codex-mini",
+    "name": "Codex Mini 💵",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "200k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.5000",
+    "output_cost": "6.0000"
+  },
+  {
+    "id": "openai/gpt-3.5-turbo",
+    "name": "GPT-3.5 Turbo ⚡",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "16k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.5000",
+    "output_cost": "1.5000"
+  },
+  {
+    "id": "openai/gpt-3.5-turbo-0613",
+    "name": "GPT-3.5 Turbo (older v0613) ⚡",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "4k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.0000",
+    "output_cost": "2.0000"
+  },
+  {
+    "id": "openai/gpt-3.5-turbo-16k",
+    "name": "GPT-3.5 Turbo 16k ⚡",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "16k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "3.0000",
+    "output_cost": "4.0000"
+  },
+  {
+    "id": "openai/gpt-3.5-turbo-instruct",
+    "name": "GPT-3.5 Turbo Instruct ⚡ 📝",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "4k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.5000",
+    "output_cost": "2.0000"
+  },
+  {
+    "id": "openai/gpt-4",
+    "name": "GPT-4 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "30.0000",
+    "output_cost": "60.0000"
+  },
+  {
+    "id": "openai/gpt-4-0314",
+    "name": "GPT-4 (older v0314) 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "30.0000",
+    "output_cost": "60.0000"
+  },
+  {
+    "id": "openai/gpt-4-1106-preview",
+    "name": "GPT-4 Turbo (older v1106) 🖼️ ⚡ 💸",
+    "category": "OpenAI",
+    "tags": [
+      "128k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "10.0000",
+    "output_cost": "30.0000"
+  },
+  {
+    "id": "openai/gpt-4-turbo",
+    "name": "GPT-4 Turbo 🖼️ ⚡ 💸",
+    "category": "OpenAI",
+    "tags": [
+      "128k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "10.0000",
+    "output_cost": "30.0000"
+  },
+  {
+    "id": "openai/gpt-4-turbo-preview",
+    "name": "GPT-4 Turbo Preview ⚡ 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "10.0000",
+    "output_cost": "30.0000"
+  },
+  {
+    "id": "openai/gpt-4.1",
+    "name": "GPT-4.1 {} 💵",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "1048k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "2.0000",
+    "output_cost": "8.0000"
+  },
+  {
+    "id": "openai/gpt-4.1-mini",
+    "name": "GPT-4.1 Mini 🖼️ {}",
+    "category": "OpenAI",
+    "tags": [
+      "Coding",
+      "T2T",
+      "1048k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.4000",
+    "output_cost": "1.6000"
+  },
+  {
+    "id": "openai/gpt-4.1-nano",
+    "name": "GPT-4.1 Nano {}",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "1048k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.1000",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "openai/gpt-4o",
+    "name": "GPT-4o",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "2.5000",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-4o-2024-05-13",
+    "name": "GPT-4o (2024-05-13) 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "5.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "openai/gpt-4o-2024-08-06",
+    "name": "GPT-4o (2024-08-06)",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "2.5000",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-4o-2024-11-20",
+    "name": "GPT-4o (2024-11-20)",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "2.5000",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-4o-audio-preview",
+    "name": "GPT-4o Audio",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "2.5000",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-4o-mini",
+    "name": "GPT-4o-mini",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "openai/gpt-4o-mini-2024-07-18",
+    "name": "GPT-4o-mini (2024-07-18)",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "openai/gpt-4o-mini-search-preview",
+    "name": "openai/gpt-4o-mini-search-preview 🌐",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "search"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "openai/gpt-4o-search-preview",
+    "name": "openai/gpt-4o-search-preview 🌐",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "search"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "2.5000",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-4o:extended",
+    "name": "GPT-4o (extended) 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "6.0000",
+    "output_cost": "18.0000"
+  },
+  {
+    "id": "openai/gpt-5",
+    "name": "GPT-5 {}",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.2500",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-5-chat",
+    "name": "GPT-5 Chat",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.2500",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-5-codex",
+    "name": "GPT-5 Codex {}",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.2500",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-5-image",
+    "name": "GPT-5 Image",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "10.0000",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-5-image-mini",
+    "name": "GPT-5 Image Mini",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "2.5000",
+    "output_cost": "2.0000"
+  },
+  {
+    "id": "openai/gpt-5-mini",
+    "name": "GPT-5 Mini",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.2500",
+    "output_cost": "2.0000"
+  },
+  {
+    "id": "openai/gpt-5-nano",
+    "name": "GPT-5 Nano",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.0500",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "openai/gpt-5-pro",
+    "name": "GPT-5 Pro {} 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "15.0000",
+    "output_cost": "120.0000"
+  },
+  {
+    "id": "openai/gpt-5.1",
+    "name": "GPT-5.1 {}",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.2500",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-5.1-chat",
+    "name": "GPT-5.1 Chat {}",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.2500",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-5.1-codex",
+    "name": "GPT-5.1-Codex {}",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.2500",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-5.1-codex-max",
+    "name": "GPT-5.1-Codex-Max {}",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.2500",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "openai/gpt-5.1-codex-mini",
+    "name": "GPT-5.1-Codex-Mini",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.2500",
+    "output_cost": "2.0000"
+  },
+  {
+    "id": "openai/gpt-5.2",
+    "name": "GPT-5.2 {} 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.7500",
+    "output_cost": "14.0000"
+  },
+  {
+    "id": "openai/gpt-5.2-chat",
+    "name": "GPT-5.2 Chat {} 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.7500",
+    "output_cost": "14.0000"
+  },
+  {
+    "id": "openai/gpt-5.2-pro",
+    "name": "GPT-5.2 Pro {} 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "400k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "21.0000",
+    "output_cost": "168.0000"
+  },
+  {
+    "id": "openai/gpt-oss-120b",
+    "name": "gpt-oss-120b",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.0200",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "openai/gpt-oss-120b:exacto",
+    "name": "gpt-oss-120b (exacto)",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.0390",
+    "output_cost": "0.1900"
+  },
+  {
+    "id": "openai/gpt-oss-20b",
+    "name": "gpt-oss-20b",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.0160",
+    "output_cost": "0.0600"
+  },
+  {
+    "id": "openai/gpt-oss-safeguard-20b",
+    "name": "gpt-oss-safeguard-20b",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "0.0750",
+    "output_cost": "0.3000"
+  },
+  {
+    "id": "openai/o1",
+    "name": "o1 🧠 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "15.0000",
+    "output_cost": "60.0000"
+  },
+  {
+    "id": "openai/o3",
+    "name": "o3 {} 💵",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "2.0000",
+    "output_cost": "8.0000"
+  },
+  {
+    "id": "openai/o3-deep-research",
+    "name": "openai/o3-deep-research 🌐 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "search"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "10.0000",
+    "output_cost": "40.0000"
+  },
+  {
+    "id": "openai/o3-mini",
+    "name": "o3 Mini 🖼️ 🧠 {}",
+    "category": "OpenAI",
+    "tags": [
+      "Coding",
+      "200k limit",
+      "T2T",
+      "Thinking",
+      "Multimodal"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.1000",
+    "output_cost": "4.4000"
+  },
+  {
+    "id": "openai/o3-mini-high",
+    "name": "o3 Mini High 🖼️ {}",
+    "category": "OpenAI",
+    "tags": [
+      "Coding",
+      "200k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.1000",
+    "output_cost": "4.4000"
+  },
+  {
+    "id": "openai/o3-pro",
+    "name": "o3 Pro 💸",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "200k limit"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "20.0000",
+    "output_cost": "80.0000"
+  },
+  {
+    "id": "openai/o4-mini",
+    "name": "o4 Mini {}",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.1000",
+    "output_cost": "4.4000"
+  },
+  {
+    "id": "openai/o4-mini-deep-research",
+    "name": "openai/o4-mini-deep-research 🌐 💵",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "search"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "2.0000",
+    "output_cost": "8.0000"
+  },
+  {
+    "id": "openai/o4-mini-high",
+    "name": "o4 Mini High {}",
+    "category": "OpenAI",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/openai.png",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+    "input_cost": "1.1000",
+    "output_cost": "4.4000"
+  },
+  {
+    "id": "ai21/jamba-large-1.7",
+    "name": "Jamba Large 1.7 💵",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "256k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "2.0000",
+    "output_cost": "8.0000"
+  },
+  {
+    "id": "ai21/jamba-mini-1.7",
+    "name": "Jamba Mini 1.7",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "256k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.2000",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "alpindale/goliath-120b",
+    "name": "Goliath 120B 💵",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "6k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "6.0000",
+    "output_cost": "8.0000"
+  },
+  {
+    "id": "anthracite-org/magnum-v4-72b",
+    "name": "Magnum v4 72B 💵",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "16k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "3.0000",
+    "output_cost": "5.0000"
+  },
+  {
+    "id": "eleutherai/llemma_7b",
+    "name": "Llemma 7b",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "4k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.8000",
+    "output_cost": "1.2000"
+  },
+  {
+    "id": "essentialai/rnj-1-instruct",
+    "name": "Rnj 1 Instruct 📝",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.1500"
+  },
+  {
+    "id": "ibm-granite/granite-4.0-h-micro",
+    "name": "Granite 4.0 Micro",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.0170",
+    "output_cost": "0.1100"
+  },
+  {
+    "id": "inception/mercury",
+    "name": "Mercury",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.2500",
+    "output_cost": "1.0000"
+  },
+  {
+    "id": "inception/mercury-coder",
+    "name": "Mercury Coder {}",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.2500",
+    "output_cost": "1.0000"
+  },
+  {
+    "id": "inflection/inflection-3-pi",
+    "name": "Inflection 3 Pi",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "2.5000",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "inflection/inflection-3-productivity",
+    "name": "Inflection 3 Productivity",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "2.5000",
+    "output_cost": "10.0000"
+  },
+  {
+    "id": "kwaipilot/kat-coder-pro",
+    "name": "KAT-Coder-Pro V1 {}",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "256k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/kwaipilot.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.2070",
+    "output_cost": "0.8280"
+  },
+  {
+    "id": "liquid/lfm-2.2-6b",
+    "name": "LiquidAI/LFM2-2.6B",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.0500",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "mancer/weaver",
+    "name": "Weaver (alpha)",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.7500",
+    "output_cost": "1.0000"
+  },
+  {
+    "id": "meituan/longcat-flash-chat",
+    "name": "LongCat Flash Chat 🧠 {}",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Thinking",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.2000",
+    "output_cost": "0.8000"
+  },
+  {
+    "id": "morph/morph-v3-fast",
+    "name": "Morph V3 Fast",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "82k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.8000",
+    "output_cost": "1.2000"
+  },
+  {
+    "id": "morph/morph-v3-large",
+    "name": "Morph V3 Large",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "262k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.9000",
+    "output_cost": "1.9000"
+  },
+  {
+    "id": "neversleep/llama-3.1-lumimaid-8b",
+    "name": "Lumimaid v0.2 8B",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.0900",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "neversleep/noromaid-20b",
+    "name": "Noromaid 20B",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "4k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "1.0000",
+    "output_cost": "1.7500"
+  },
+  {
+    "id": "prime-intellect/intellect-3",
+    "name": "INTELLECT-3",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.2000",
+    "output_cost": "1.1000"
+  },
+  {
+    "id": "raifle/sorcererlm-8x22b",
+    "name": "SorcererLM 8x22B",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "16k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "4.5000",
+    "output_cost": "4.5000"
+  },
+  {
+    "id": "relace/relace-apply-3",
+    "name": "Relace Apply 3",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "256k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.8500",
+    "output_cost": "1.2500"
+  },
+  {
+    "id": "relace/relace-search",
+    "name": "Relace Search {}",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "256k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "1.0000",
+    "output_cost": "3.0000"
+  },
+  {
+    "id": "stepfun-ai/step3",
+    "name": "Step3 🖼️ {}",
+    "category": "Other",
+    "tags": [
+      "66k limit",
+      "Coding",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.5700",
+    "output_cost": "1.4200"
+  },
+  {
+    "id": "tngtech/deepseek-r1t-chimera",
+    "name": "DeepSeek R1T Chimera",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "164k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/tngtech.png",
+    "original_image": "https://res.cloudinary.com/dx2l1ri8h/image/upload/v1767917771/styled-image_16_lbvlr1.png",
+    "input_cost": "0.3000",
+    "output_cost": "1.2000"
+  },
+  {
+    "id": "tngtech/deepseek-r1t2-chimera",
+    "name": "DeepSeek R1T2 Chimera",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "164k limit"
+    ],
+    "image": "/models/brands/tngtech.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.2500",
+    "output_cost": "0.8500"
+  },
+  {
+    "id": "tngtech/tng-r1t-chimera",
+    "name": "R1T Chimera",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "164k limit"
+    ],
+    "image": "/models/brands/tngtech.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.2500",
+    "output_cost": "0.8500"
+  },
+  {
+    "id": "undi95/remm-slerp-l2-13b",
+    "name": "ReMM SLERP 13B",
+    "category": "Other",
+    "tags": [
+      "T2T",
+      "6k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "https://res.cloudinary.com/dja78cr08/image/upload/v1767737476/styled-image_14_dceaff.png",
+    "input_cost": "0.4500",
+    "output_cost": "0.6500"
+  },
+  {
+    "id": "perplexity/sonar",
+    "name": "perplexity/sonar 🌐",
+    "category": "Perplexity",
+    "tags": [
+      "T2T",
+      "127k limit",
+      "search"
+    ],
+    "image": "/models/brands/perplexity.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/perplexity-ai/icon.png",
+    "input_cost": "1.0000",
+    "output_cost": "1.0000"
+  },
+  {
+    "id": "perplexity/sonar-deep-research",
+    "name": "perplexity/sonar-deep-research 🌐 💵",
+    "category": "Perplexity",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "search"
+    ],
+    "image": "/models/brands/perplexity.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/perplexity-ai/icon.png",
+    "input_cost": "2.0000",
+    "output_cost": "8.0000"
+  },
+  {
+    "id": "perplexity/sonar-pro",
+    "name": "perplexity/sonar-pro 🌐 💸",
+    "category": "Perplexity",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "search"
+    ],
+    "image": "/models/brands/perplexity.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/perplexity-ai/icon.png",
+    "input_cost": "3.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "perplexity/sonar-pro-search",
+    "name": "perplexity/sonar-pro-search 🌐 💸",
+    "category": "Perplexity",
+    "tags": [
+      "T2T",
+      "200k limit",
+      "search"
+    ],
+    "image": "/models/brands/perplexity.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/perplexity-ai/icon.png",
+    "input_cost": "3.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "perplexity/sonar-reasoning-pro",
+    "name": "perplexity/sonar-reasoning-pro 🌐 💵",
+    "category": "Perplexity",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "search"
+    ],
+    "image": "/models/brands/perplexity.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/perplexity-ai/icon.png",
+    "input_cost": "2.0000",
+    "output_cost": "8.0000"
+  },
+  {
+    "id": "alibaba/tongyi-deepresearch-30b-a3b",
+    "name": "Tongyi DeepResearch 30B A3B",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0900",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "qwen/qwen-2.5-72b-instruct",
+    "name": "Qwen2.5 72B Instruct {} 📝",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.1200",
+    "output_cost": "0.3900"
+  },
+  {
+    "id": "qwen/qwen-2.5-7b-instruct",
+    "name": "Qwen2.5 7B Instruct {} 📝",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0400",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "qwen/qwen-2.5-coder-32b-instruct",
+    "name": "Qwen2.5 Coder 32B Instruct {} 📝",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0300",
+    "output_cost": "0.1100"
+  },
+  {
+    "id": "qwen/qwen-2.5-vl-7b-instruct",
+    "name": "Qwen2.5-VL 7B Instruct 📝",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Multilingual"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.2000",
+    "output_cost": "0.2000"
+  },
+  {
+    "id": "qwen/qwen-max",
+    "name": "Qwen-Max 💵",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Moe"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "1.6000",
+    "output_cost": "6.4000"
+  },
+  {
+    "id": "qwen/qwen-plus",
+    "name": "Qwen-Plus",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.4000",
+    "output_cost": "1.2000"
+  },
+  {
+    "id": "qwen/qwen-plus-2025-07-28",
+    "name": "Qwen Plus 0728",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "1000k limit"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.4000",
+    "output_cost": "1.2000"
+  },
+  {
+    "id": "qwen/qwen-plus-2025-07-28:thinking",
+    "name": "Qwen Plus 0728 (thinking)",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "1000k limit"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.4000",
+    "output_cost": "4.0000"
+  },
+  {
+    "id": "qwen/qwen-turbo",
+    "name": "Qwen-Turbo ⚡",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "1000k limit"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0500",
+    "output_cost": "0.2000"
+  },
+  {
+    "id": "qwen/qwen-vl-max",
+    "name": "Qwen VL Max 🖼️",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.8000",
+    "output_cost": "3.2000"
+  },
+  {
+    "id": "qwen/qwen-vl-plus",
+    "name": "Qwen VL Plus 🖼️",
+    "category": "Qwen",
+    "tags": [
+      "8k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.2100",
+    "output_cost": "0.6300"
+  },
+  {
+    "id": "qwen/qwen2.5-coder-7b-instruct",
+    "name": "Qwen2.5 Coder 7B Instruct {} 📝",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0300",
+    "output_cost": "0.0900"
+  },
+  {
+    "id": "qwen/qwen2.5-vl-32b-instruct",
+    "name": "Qwen2.5 VL 32B Instruct 🖼️ 📝",
+    "category": "Qwen",
+    "tags": [
+      "16k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0500",
+    "output_cost": "0.2200"
+  },
+  {
+    "id": "qwen/qwen2.5-vl-72b-instruct",
+    "name": "Qwen2.5 VL 72B Instruct 🖼️ 📝",
+    "category": "Qwen",
+    "tags": [
+      "33k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "qwen/qwen3-14b",
+    "name": "Qwen3 14B 🧠",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "41k limit",
+      "Thinking",
+      "Multilingual"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0500",
+    "output_cost": "0.2200"
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b",
+    "name": "Qwen3 235B A22B 🧠",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "41k limit",
+      "Thinking",
+      "Multilingual",
+      "Moe"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.1800",
+    "output_cost": "0.5400"
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen3 235B A22B Instruct 2507 🧠 {} 📝",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0710",
+    "output_cost": "0.4630"
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b-thinking-2507",
+    "name": "Qwen3 235B A22B Thinking 2507 🧠",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Thinking",
+      "Multilingual",
+      "Moe"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.1100",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b",
+    "name": "Qwen3 30B A3B 🧠 {}",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "41k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0600",
+    "output_cost": "0.2200"
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b-instruct-2507",
+    "name": "Qwen3 30B A3B Instruct 2507 🧠 {} 📝",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0800",
+    "output_cost": "0.3300"
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b-thinking-2507",
+    "name": "Qwen3 30B A3B Thinking 2507 🧠 {}",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0510",
+    "output_cost": "0.3400"
+  },
+  {
+    "id": "qwen/qwen3-32b",
+    "name": "Qwen3 32B 🧠 {}",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "41k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0800",
+    "output_cost": "0.2400"
+  },
+  {
+    "id": "qwen/qwen3-8b",
+    "name": "Qwen3 8B 🧠 {}",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0350",
+    "output_cost": "0.1380"
+  },
+  {
+    "id": "qwen/qwen3-coder",
+    "name": "Qwen3 Coder 480B A35B {}",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.2200",
+    "output_cost": "0.9500"
+  },
+  {
+    "id": "qwen/qwen3-coder-30b-a3b-instruct",
+    "name": "Qwen3 Coder 30B A3B Instruct 🧠 📝",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "160k limit",
+      "Thinking",
+      "Moe"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0700",
+    "output_cost": "0.2700"
+  },
+  {
+    "id": "qwen/qwen3-coder-flash",
+    "name": "Qwen3 Coder Flash {}",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.3000",
+    "output_cost": "1.5000"
+  },
+  {
+    "id": "qwen/qwen3-coder-plus",
+    "name": "Qwen3 Coder Plus {} 💵",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "128k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "1.0000",
+    "output_cost": "5.0000"
+  },
+  {
+    "id": "qwen/qwen3-coder:exacto",
+    "name": "Qwen3 Coder 480B A35B (exacto) {}",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Coding",
+      "Moe"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.2200",
+    "output_cost": "1.8000"
+  },
+  {
+    "id": "qwen/qwen3-max",
+    "name": "Qwen3 Max 🧠 {} 💵",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "256k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "1.2000",
+    "output_cost": "6.0000"
+  },
+  {
+    "id": "qwen/qwen3-next-80b-a3b-instruct",
+    "name": "Qwen3 Next 80B A3B Instruct 🧠 {} 📝",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0600",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "qwen/qwen3-next-80b-a3b-thinking",
+    "name": "Qwen3 Next 80B A3B Thinking 🧠 {}",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "262k limit",
+      "Thinking",
+      "Multilingual",
+      "Coding"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.1500",
+    "output_cost": "1.2000"
+  },
+  {
+    "id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "name": "Qwen3 VL 235B A22B Instruct 🖼️ {} 📝",
+    "category": "Qwen",
+    "tags": [
+      "262k limit",
+      "Coding",
+      "T2T",
+      "Multimodal",
+      "Multilingual"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.1200",
+    "output_cost": "0.5600"
+  },
+  {
+    "id": "qwen/qwen3-vl-235b-a22b-thinking",
+    "name": "Qwen3 VL 235B A22B Thinking 🖼️ 🧠 {}",
+    "category": "Qwen",
+    "tags": [
+      "262k limit",
+      "Coding",
+      "T2T",
+      "Multimodal",
+      "Multilingual",
+      "Thinking"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.4500",
+    "output_cost": "3.5000"
+  },
+  {
+    "id": "qwen/qwen3-vl-30b-a3b-instruct",
+    "name": "Qwen3 VL 30B A3B Instruct 🖼️ {} 📝",
+    "category": "Qwen",
+    "tags": [
+      "262k limit",
+      "Coding",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.6000"
+  },
+  {
+    "id": "qwen/qwen3-vl-30b-a3b-thinking",
+    "name": "Qwen3 VL 30B A3B Thinking 🖼️ 🧠 {}",
+    "category": "Qwen",
+    "tags": [
+      "Coding",
+      "T2T",
+      "131k limit",
+      "Multimodal",
+      "Thinking"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.2000",
+    "output_cost": "1.0000"
+  },
+  {
+    "id": "qwen/qwen3-vl-32b-instruct",
+    "name": "Qwen3 VL 32B Instruct 🖼️ 📝",
+    "category": "Qwen",
+    "tags": [
+      "262k limit",
+      "T2T",
+      "Multimodal"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.5000",
+    "output_cost": "1.5000"
+  },
+  {
+    "id": "qwen/qwen3-vl-8b-instruct",
+    "name": "Qwen3 VL 8B Instruct 🖼️ 📝",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.0800",
+    "output_cost": "0.5000"
+  },
+  {
+    "id": "qwen/qwen3-vl-8b-thinking",
+    "name": "Qwen3 VL 8B Thinking 🖼️ 🧠",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "Multimodal",
+      "256k limit",
+      "Multilingual",
+      "Thinking"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.1800",
+    "output_cost": "2.1000"
+  },
+  {
+    "id": "qwen/qwq-32b",
+    "name": "QwQ 32B 🧠",
+    "category": "Qwen",
+    "tags": [
+      "T2T",
+      "33k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/qwen.png",
+    "original_image": "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/qwen/icon.png",
+    "input_cost": "0.1500",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "sao10k/l3-euryale-70b",
+    "name": "Llama 3 Euryale 70B v2.1",
+    "category": "Sao10k",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "",
+    "input_cost": "1.4800",
+    "output_cost": "1.4800"
+  },
+  {
+    "id": "sao10k/l3-lunaris-8b",
+    "name": "Llama 3 8B Lunaris",
+    "category": "Sao10k",
+    "tags": [
+      "T2T",
+      "8k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "",
+    "input_cost": "0.0400",
+    "output_cost": "0.0500"
+  },
+  {
+    "id": "sao10k/l3.1-70b-hanami-x1",
+    "name": "Llama 3.1 70B Hanami x1",
+    "category": "Sao10k",
+    "tags": [
+      "T2T",
+      "16k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "",
+    "input_cost": "3.0000",
+    "output_cost": "3.0000"
+  },
+  {
+    "id": "sao10k/l3.1-euryale-70b",
+    "name": "Llama 3.1 Euryale 70B v2.2",
+    "category": "Sao10k",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "",
+    "input_cost": "0.6500",
+    "output_cost": "0.7500"
+  },
+  {
+    "id": "sao10k/l3.3-euryale-70b",
+    "name": "Llama 3.3 Euryale 70B",
+    "category": "Sao10k",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "",
+    "input_cost": "0.6500",
+    "output_cost": "0.7500"
+  },
+  {
+    "id": "thedrummer/cydonia-24b-v4.1",
+    "name": "Cydonia 24B V4.1",
+    "category": "Thedrummer",
+    "tags": [
+      "T2T",
+      "131k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "",
+    "input_cost": "0.3000",
+    "output_cost": "0.5000"
+  },
+  {
+    "id": "thedrummer/rocinante-12b",
+    "name": "Rocinante 12B",
+    "category": "Thedrummer",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "",
+    "input_cost": "0.1700",
+    "output_cost": "0.4300"
+  },
+  {
+    "id": "thedrummer/skyfall-36b-v2",
+    "name": "Skyfall 36B V2",
+    "category": "Thedrummer",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "",
+    "input_cost": "0.5500",
+    "output_cost": "0.8000"
+  },
+  {
+    "id": "thedrummer/unslopnemo-12b",
+    "name": "UnslopNemo 12B",
+    "category": "Thedrummer",
+    "tags": [
+      "T2T",
+      "33k limit"
+    ],
+    "image": "/models/brands/other.png",
+    "original_image": "",
+    "input_cost": "0.4000",
+    "output_cost": "0.4000"
+  },
+  {
+    "id": "x-ai/grok-3",
+    "name": "Grok 3 {} 💸",
+    "category": "X AI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/x-ai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/67f8fa61950509998c43e572_Grok%20logo.webp",
+    "input_cost": "3.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "x-ai/grok-3-beta",
+    "name": "Grok 3 Beta 🧠 {} 💸",
+    "category": "X AI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Thinking",
+      "Coding"
+    ],
+    "image": "/models/brands/x-ai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/67f8fa61950509998c43e572_Grok%20logo.webp",
+    "input_cost": "3.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "x-ai/grok-3-mini",
+    "name": "Grok 3 Mini 🧠",
+    "category": "X AI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/x-ai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/67f8fa61950509998c43e572_Grok%20logo.webp",
+    "input_cost": "0.3000",
+    "output_cost": "0.5000"
+  },
+  {
+    "id": "x-ai/grok-3-mini-beta",
+    "name": "Grok 3 Mini Beta 🧠",
+    "category": "X AI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Thinking"
+    ],
+    "image": "/models/brands/x-ai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/67f8fa61950509998c43e572_Grok%20logo.webp",
+    "input_cost": "0.3000",
+    "output_cost": "0.5000"
+  },
+  {
+    "id": "x-ai/grok-4",
+    "name": "Grok 4 💸",
+    "category": "X AI",
+    "tags": [
+      "T2T",
+      "256k limit"
+    ],
+    "image": "/models/brands/x-ai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/67f8fa61950509998c43e572_Grok%20logo.webp",
+    "input_cost": "3.0000",
+    "output_cost": "15.0000"
+  },
+  {
+    "id": "x-ai/grok-4-fast",
+    "name": "Grok 4 Fast",
+    "category": "X AI",
+    "tags": [
+      "T2T",
+      "2000k limit"
+    ],
+    "image": "/models/brands/x-ai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/67f8fa61950509998c43e572_Grok%20logo.webp",
+    "input_cost": "0.2000",
+    "output_cost": "0.5000"
+  },
+  {
+    "id": "x-ai/grok-4.1-fast",
+    "name": "Grok 4.1 Fast",
+    "category": "X AI",
+    "tags": [
+      "T2T",
+      "2000k limit"
+    ],
+    "image": "/models/brands/x-ai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/67f8fa61950509998c43e572_Grok%20logo.webp",
+    "input_cost": "0.2000",
+    "output_cost": "0.5000"
+  },
+  {
+    "id": "x-ai/grok-code-fast-1",
+    "name": "Grok Code Fast 1 {}",
+    "category": "X AI",
+    "tags": [
+      "T2T",
+      "256k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/x-ai.png",
+    "original_image": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/67f8fa61950509998c43e572_Grok%20logo.webp",
+    "input_cost": "0.2000",
+    "output_cost": "1.5000"
+  },
+  {
+    "id": "z-ai/glm-4-32b",
+    "name": "GLM 4 32B",
+    "category": "Z AI",
+    "tags": [
+      "T2T",
+      "128k limit"
+    ],
+    "image": "/models/brands/z-ai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/108336335?s=200&v=4",
+    "input_cost": "0.1000",
+    "output_cost": "0.1000"
+  },
+  {
+    "id": "z-ai/glm-4.5",
+    "name": "GLM 4.5 🧠",
+    "category": "Z AI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Thinking",
+      "Moe"
+    ],
+    "image": "/models/brands/z-ai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/108336335?s=200&v=4",
+    "input_cost": "0.3500",
+    "output_cost": "1.5500"
+  },
+  {
+    "id": "z-ai/glm-4.5-air",
+    "name": "GLM 4.5 Air 🧠",
+    "category": "Z AI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Thinking",
+      "Moe"
+    ],
+    "image": "/models/brands/z-ai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/108336335?s=200&v=4",
+    "input_cost": "0.0500",
+    "output_cost": "0.2200"
+  },
+  {
+    "id": "z-ai/glm-4.5v",
+    "name": "GLM 4.5V 🖼️ 🧠 {}",
+    "category": "Z AI",
+    "tags": [
+      "66k limit",
+      "Moe",
+      "Coding",
+      "T2T",
+      "Multimodal",
+      "Thinking"
+    ],
+    "image": "/models/brands/z-ai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/108336335?s=200&v=4",
+    "input_cost": "0.6000",
+    "output_cost": "1.8000"
+  },
+  {
+    "id": "z-ai/glm-4.6",
+    "name": "GLM 4.6 {}",
+    "category": "Z AI",
+    "tags": [
+      "T2T",
+      "203k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/z-ai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/108336335?s=200&v=4",
+    "input_cost": "0.3500",
+    "output_cost": "1.5000"
+  },
+  {
+    "id": "z-ai/glm-4.6:exacto",
+    "name": "GLM 4.6 (exacto) {}",
+    "category": "Z AI",
+    "tags": [
+      "T2T",
+      "205k limit",
+      "Coding"
+    ],
+    "image": "/models/brands/z-ai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/108336335?s=200&v=4",
+    "input_cost": "0.4400",
+    "output_cost": "1.7600"
+  },
+  {
+    "id": "z-ai/glm-4.6v",
+    "name": "GLM 4.6V 🖼️",
+    "category": "Z AI",
+    "tags": [
+      "T2T",
+      "131k limit",
+      "Multimodal"
+    ],
+    "image": "/models/brands/z-ai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/108336335?s=200&v=4",
+    "input_cost": "0.3000",
+    "output_cost": "0.9000"
+  },
+  {
+    "id": "z-ai/glm-4.7",
+    "name": "GLM 4.7",
+    "category": "Z AI",
+    "tags": [
+      "T2T",
+      "203k limit"
+    ],
+    "image": "/models/brands/z-ai.png",
+    "original_image": "https://avatars.githubusercontent.com/u/108336335?s=200&v=4",
+    "input_cost": "0.1600",
+    "output_cost": "0.8000"
+  }
+]
