@@ -1,40 +1,16 @@
 import { motion } from 'framer-motion';
 import { Quote, TrendingUp, Smartphone, ShoppingBag, User } from 'lucide-react';
-
-const testimonials = [
-    {
-        quote: "We replaced our entire 4-person sales team with Mangomind's AI agents. It was costing us 1,02,000 BDT per month—now we run on autopilot for a fraction of the cost.",
-        author: "CEO, Fashion Brand",
-        location: "Dhaka",
-        icon: <User className="text-orange-500" />,
-        stats: [
-            { label: "Savings", value: "৳1.02L/mo" },
-            { label: "Headcount", value: "-4 Roles" }
-        ]
-    },
-    {
-        quote: "My Ecommerce Salesman works 24/7. It handles customer queries on Facebook and my website even when I'm sleeping. Sales increased by 30% in just one week.",
-        author: "Owner, Gadget Shop",
-        location: "Chittagong",
-        icon: <ShoppingBag className="text-orange-500" />,
-        stats: [
-            { label: "Sales Up", value: "+30%" },
-            { label: "Uptime", value: "24/7" }
-        ]
-    },
-    {
-        quote: "I control my entire agency from WhatsApp now. My Personal Assistant agent researches topics and creates files for me just by me texting it. It feels like magic.",
-        author: "Digital Marketer",
-        location: "Sylhet",
-        icon: <Smartphone className="text-orange-500" />,
-        stats: [
-            { label: "Efficiency", value: "10x" },
-            { label: "Platform", value: "WhatsApp" }
-        ]
-    }
-];
+import { useLanguage } from '../context/LanguageContext';
 
 const Testimonials = () => {
+    const { t } = useLanguage();
+
+    const icons = [
+        <User className="text-orange-500" />,
+        <ShoppingBag className="text-orange-500" />,
+        <Smartphone className="text-orange-500" />
+    ];
+
     return (
         <section className="section-padding" style={{ background: 'var(--bg-secondary)', position: 'relative' }}>
             <div className="container">
@@ -44,12 +20,12 @@ const Testimonials = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                 >
-                    <h2>Client <span className="text-gradient">Success Stories</span></h2>
-                    <p>Real results from Dhaka's top businesses.</p>
+                    <h2>{t.testimonials.title} <span className="text-gradient">{t.testimonials.titleHighlight}</span></h2>
+                    <p>{t.testimonials.subtitle}</p>
                 </motion.div>
 
                 <div className="services-grid">
-                    {testimonials.map((item, index) => (
+                    {t.testimonials.items.map((item, index) => (
                         <motion.div
                             key={index}
                             className="glass-card"
@@ -69,7 +45,7 @@ const Testimonials = () => {
                                         <p style={{ fontSize: '0.85rem' }}>{item.location}</p>
                                     </div>
                                     <div style={{ background: 'rgba(255,255,255,0.05)', padding: '0.5rem', borderRadius: '50%' }}>
-                                        {item.icon}
+                                        {icons[index]}
                                     </div>
                                 </div>
 

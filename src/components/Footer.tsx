@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 
 // Custom icons for X and HuggingFace
 const XIcon = () => (
@@ -20,6 +21,8 @@ const FacebookIcon = () => (
 );
 
 const Footer = () => {
+    const { t } = useLanguage();
+
     return (
         <footer style={{ background: 'var(--bg-secondary)', borderTop: '1px solid var(--glass-border)', padding: '4rem 0 2rem' }}>
             <div className="container">
@@ -32,7 +35,7 @@ const Footer = () => {
                             <span style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>Mangomind</span>
                         </div>
                         <p style={{ fontSize: '0.9rem', marginBottom: '1.5rem' }}>
-                            Pioneering AI automation in Bangladesh. We build intelligent agents that work 24/7 so you don't have to.
+                            {t.footer.about}
                         </p>
                         <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '1rem' }}>
                             <a href="https://www.facebook.com/mangomindAI/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} title="Facebook"><FacebookIcon /></a>
@@ -43,16 +46,16 @@ const Footer = () => {
 
                     {/* Links */}
                     <div className="flex-col gap-4">
-                        <h4 style={{ color: 'white', marginBottom: '0.5rem' }}>Company</h4>
-                        <a href="/#about" className="nav-link" style={{ fontSize: '0.9rem' }}>About Us</a>
-                        <a href="/#services" className="nav-link" style={{ fontSize: '0.9rem' }}>Services</a>
-                        <a href="/models" className="nav-link" style={{ fontSize: '0.9rem' }}>Models</a>
-                        <a href="/blogs" className="nav-link" style={{ fontSize: '0.9rem' }}>Blog</a>
+                        <h4 style={{ color: 'white', marginBottom: '0.5rem' }}>{t.footer.company}</h4>
+                        <a href="/#about" className="nav-link" style={{ fontSize: '0.9rem' }}>{t.footer.aboutUs}</a>
+                        <a href="/#services" className="nav-link" style={{ fontSize: '0.9rem' }}>{t.footer.services}</a>
+                        <a href="/models" className="nav-link" style={{ fontSize: '0.9rem' }}>{t.footer.models}</a>
+                        <a href="/blogs" className="nav-link" style={{ fontSize: '0.9rem' }}>{t.footer.blog}</a>
                     </div>
 
                     {/* Contact */}
                     <div className="flex-col gap-4">
-                        <h4 style={{ color: 'white', marginBottom: '0.5rem' }}>Contact</h4>
+                        <h4 style={{ color: 'white', marginBottom: '0.5rem' }}>{t.footer.contact}</h4>
                         <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
                             <Mail size={16} />
                             <span>agent@mangomindbd.com</span>
@@ -69,7 +72,7 @@ const Footer = () => {
                 </div>
 
                 <div style={{ borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '2rem', textAlign: 'center', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-                    <p style={{ margin: 0 }}>&copy; {new Date().getFullYear()} Mangomind AI Automation. All rights reserved.</p>
+                    <p style={{ margin: 0 }}>&copy; {new Date().getFullYear()} {t.footer.copyright}</p>
                 </div>
             </div>
         </footer>

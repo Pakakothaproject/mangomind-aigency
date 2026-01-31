@@ -1,24 +1,9 @@
 import { motion } from 'framer-motion';
-
-const steps = [
-    {
-        number: "01",
-        title: "Understanding Your Workforce",
-        description: "We analyze your specific needs and workforce structure to understand exactly where automation fits."
-    },
-    {
-        number: "02",
-        title: "Building Your Agents",
-        description: "We create custom AI agents you can run for cheap to either replace redundant roles or optimize your existing workforce."
-    },
-    {
-        number: "03",
-        title: "Any Type of Business",
-        description: "We handle any type of business. Our scalable agents integrate seamlessly into your operations to cut costs."
-    }
-];
+import { useLanguage } from '../context/LanguageContext';
 
 const Process = () => {
+    const { t } = useLanguage();
+
     return (
         <section id="process" className="section-padding">
             <div className="container">
@@ -28,12 +13,12 @@ const Process = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                 >
-                    <h2>Our <span className="text-gradient">Process</span></h2>
-                    <p>Simple. Effective. Transformative.</p>
+                    <h2>{t.processSection.title} <span className="text-gradient">{t.processSection.titleHighlight}</span></h2>
+                    <p>{t.processSection.subtitle}</p>
                 </motion.div>
 
                 <div className="services-grid" style={{ gap: '2rem' }}>
-                    {steps.map((step, index) => (
+                    {t.processSection.steps.map((step, index) => (
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, y: 30 }}
@@ -43,10 +28,10 @@ const Process = () => {
                             style={{ padding: '2rem', borderTop: '1px solid var(--glass-border)', position: 'relative' }}
                         >
                             <span style={{ fontSize: '4rem', fontWeight: 'bold', opacity: 0.1, position: 'absolute', top: '0', right: '1rem', color: 'var(--accent-orange)' }}>
-                                {step.number}
+                                {step.num}
                             </span>
                             <h3 style={{ marginTop: '1rem', color: 'var(--accent-orange)' }}>{step.title}</h3>
-                            <p>{step.description}</p>
+                            <p>{step.desc}</p>
                         </motion.div>
                     ))}
                 </div>

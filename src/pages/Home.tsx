@@ -15,8 +15,8 @@ const Home = () => {
     return (
         <>
             <SEO
-                title="MangoMind AI Automation | No.1 AI Platform in Bangladesh 🇧🇩"
-                description="Access 400+ premium AI models including GPT-5, Gemini 3, Sora, Claude with local bKash/Nagad payments. Best AI for students, professionals, and businesses in Bangladesh."
+                title="MangoMind AI Business | Automate your Business"
+                description="Access 400+ Models and top agents that can replace your workforce and cut costs by 50%"
                 keywords="AI Bangladesh, AI Platform Bangladesh, Best AI for students and professionals, ChatGPT buy BD, Gemini Bangladesh, Sora access BD, AI agency Dhaka, MangoMind"
                 canonicalUrl="https://mangomindbd.com/"
                 organizationSchema={true}

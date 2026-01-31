@@ -80,17 +80,21 @@ body::after {
   gap: 2rem;
 }
 
-.hidden-md {
-  display: none;
+.mobile-toggle {
+  display: flex !important;
 }
 
-@media (max-width: 768px) {
-  .hidden-md {
-    display: block;
+.desktop-nav {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .mobile-toggle {
+    display: none !important;
   }
 
-  .hidden-mobile {
-    display: none;
+  .desktop-nav {
+    display: flex !important;
   }
 }
 
@@ -188,12 +192,14 @@ p {
   top: 100%;
   left: 0;
   width: 100%;
-  background: rgba(5, 5, 8, 0.95);
+  background: rgba(5, 5, 8, 0.98);
+  backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--glass-border);
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 /* Hero */

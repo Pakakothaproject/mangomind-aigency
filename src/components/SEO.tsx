@@ -30,7 +30,7 @@ const SEO = ({
     description,
     keywords,
     canonicalUrl,
-    ogImage = '/og-default.png',
+    ogImage = '/scs.png',
     articleSchema,
     organizationSchema,
     faqSchema,

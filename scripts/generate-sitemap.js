@@ -1,5 +1,9 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const domain = 'https://mangomindbd.com';
 const lastmod = new Date().toISOString().split('T')[0];
@@ -11,16 +15,19 @@ const staticRoutes = [
 ];
 
 const blogStorePath = path.join(__dirname, '../src/pages/blogs');
-const blogFiles = fs.readdirSync(blogStorePath).filter(file => file.endsWith('.tsx'));
+let blogRoutes = [];
 
-const blogRoutes = blogFiles.map(file => {
-    const slug = file.replace('.tsx', '').replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
-    return {
-        url: `/blog/${slug}`,
-        priority: '0.7',
-        changefreq: 'monthly'
-    };
-});
+if (fs.existsSync(blogStorePath)) {
+    const blogFiles = fs.readdirSync(blogStorePath).filter(file => file.endsWith('.tsx'));
+    blogRoutes = blogFiles.map(file => {
+        const slug = file.replace('.tsx', '').replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+        return {
+            url: `/blog/${slug}`,
+            priority: '0.7',
+            changefreq: 'monthly'
+        };
+    });
+}
 
 const allRoutes = [...staticRoutes, ...blogRoutes];
 

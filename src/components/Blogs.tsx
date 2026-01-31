@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Calendar, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useLanguage } from '../context/LanguageContext';
 
-const blogs = [
+const blogsData = [
     {
         id: 'ai-startups',
         image: "/blogs/ai-startups.png",
@@ -30,6 +31,8 @@ const blogs = [
 ];
 
 const Blogs = () => {
+    const { t } = useLanguage();
+
     return (
         <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
             <div className="container">
@@ -39,12 +42,12 @@ const Blogs = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                 >
-                    <h2>Latest <span className="text-gradient">Insights</span></h2>
-                    <p>Trends and strategies for the modern business.</p>
+                    <h2>{t.blogs.title} <span className="text-gradient">{t.blogs.titleHighlight}</span></h2>
+                    <p>{t.blogs.subtitle}</p>
                 </motion.div>
 
                 <div className="services-grid">
-                    {blogs.map((blog, index) => (
+                    {blogsData.map((blog, index) => (
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, y: 20 }}
@@ -65,7 +68,7 @@ const Blogs = () => {
                                 <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem', lineHeight: '1.4' }}>{blog.title}</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>{blog.excerpt}</p>
                                 <Link to={`/blog/${blog.id}`} className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', color: 'var(--accent-orange)', fontWeight: 'bold', textDecoration: 'none' }}>
-                                    Read More <ArrowRight size={16} />
+                                    {t.blogs.readMore} <ArrowRight size={16} />
                                 </Link>
                             </div>
                         </motion.div>
