@@ -24,7 +24,7 @@ const Footer = () => {
     const { t } = useLanguage();
 
     return (
-        <footer id="main-footer" style={{ background: 'var(--bg-secondary)', borderTop: '1px solid var(--glass-border)', padding: '4rem 0 2rem' }}>
+        <footer id="main-footer" style={{ background: 'var(--bg-secondary)', borderTop: '1px solid var(--glass-border)', padding: '4rem 0 0' }}>
             <div className="container">
                 <div className="footer-grid">
 
