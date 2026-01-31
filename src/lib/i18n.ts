@@ -128,8 +128,8 @@ export const translations = {
         // Hero Section
         hero: {
             badge: 'ঢাকার No. 1 AI Agency',
-            headline: 'আমরা তৈরি করি Agents',
-            headlineHighlight: 'আপনার Workforce এর জন্য',
+            headline: 'আপনার office এর জন্য',
+            headlineHighlight: 'Ai Agent',
             subtext: 'MangoMind আপনার Business এর জন্য Custom AI Agents তৈরি করে। যেকোনো ধরনের Business এ Cost কমিয়ে Automation করুন সহজেই।',
             ctaPrimary: 'Automation শুরু করুন',
             ctaSecondary: 'কিভাবে কাজ করে',
