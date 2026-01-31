@@ -77,8 +77,8 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div style={{ borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '2rem', textAlign: 'center', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-                    <p style={{ margin: 0 }}>&copy; {new Date().getFullYear()} {t.footer.copyright}</p>
+                <div style={{ borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '2rem', paddingBottom: '0', textAlign: 'center', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                    <p style={{ margin: 0, paddingBottom: 0 }}>&copy; {new Date().getFullYear()} {t.footer.copyright}</p>
                 </div>
             </div>
         </footer>
