@@ -33,7 +33,7 @@ const WhyUs = () => {
                                         {icons[index]}
                                     </div>
                                     <div>
-                                        <h4 style={{ fontWeight: 'bold' }}>{reason.title}</h4>
+                                        <h3 style={{ fontSize: '1.1rem', fontWeight: 'bold' }}>{reason.title}</h3>
                                         <p style={{ fontSize: '0.9rem', marginBottom: 0, color: 'var(--text-secondary)' }}>{reason.desc}</p>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ const WhyUs = () => {
                     viewport={{ once: true }}
                     style={{ textAlign: 'center', marginBottom: '3rem' }}
                 >
-                    <h3>{t.math.title} <span className="text-gradient">{t.math.titleHighlight}</span></h3>
+                    <h2 style={{ fontSize: '2rem' }}>{t.math.title} <span className="text-gradient">{t.math.titleHighlight}</span></h2>
                     <p>{t.math.subtitle}</p>
                 </motion.div>
 
@@ -81,10 +81,17 @@ const WhyUs = () => {
                         style={{ flex: 1, padding: 0, overflow: 'hidden' }}
                     >
                         <div style={{ height: '200px', overflow: 'hidden' }}>
-                            <img src="/office-before.png" alt="Traditional Office" style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.7 }} />
+                            <img
+                                src="/office-before.png"
+                                alt="Traditional Office"
+                                loading="lazy"
+                                width="500"
+                                height="276"
+                                style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.7 }}
+                            />
                         </div>
                         <div style={{ padding: '2rem' }}>
-                            <h4 style={{ color: '#ef4444', marginBottom: '1rem' }}>{t.math.before.title}</h4>
+                            <h3 style={{ color: '#ef4444', marginBottom: '1rem', fontSize: '1.25rem' }}>{t.math.before.title}</h3>
                             <ul style={{ listStyle: 'none', padding: 0, opacity: 0.8, fontSize: '0.95rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                                 {t.math.before.items.map((item, i) => (
                                     <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -109,13 +116,20 @@ const WhyUs = () => {
                     >
                         <div style={{ height: '200px', overflow: 'hidden', position: 'relative' }}>
                             <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,0,0,0.8), transparent)' }}></div>
-                            <img src="/office-after.png" alt="AI Optimized Office" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img
+                                src="/office-after.png"
+                                alt="AI Optimized Office"
+                                loading="lazy"
+                                width="500"
+                                height="276"
+                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                            />
                             <div style={{ position: 'absolute', bottom: '1rem', left: '1rem', background: 'var(--accent-orange)', color: 'black', padding: '0.2rem 0.8rem', borderRadius: '4px', fontSize: '0.8rem', fontWeight: 'bold' }}>
                                 {t.math.after.badge}
                             </div>
                         </div>
                         <div style={{ padding: '2rem' }}>
-                            <h4 style={{ color: 'var(--accent-orange)', marginBottom: '1rem' }}>{t.math.after.title}</h4>
+                            <h3 style={{ color: 'var(--accent-orange)', marginBottom: '1rem', fontSize: '1.25rem' }}>{t.math.after.title}</h3>
                             <ul style={{ listStyle: 'none', padding: 0, fontSize: '0.95rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                                 {t.math.after.items.map((item, i) => (
                                     <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'white' }}>

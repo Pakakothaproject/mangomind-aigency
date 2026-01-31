@@ -21,7 +21,13 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container flex-between">
         <Link to="/" className="flex-center" style={{ textDecoration: 'none' }}>
-          <img src="/scs.png" alt="Mangomind Logo" style={{ height: '40px', width: 'auto' }} />
+          <img
+            src="/scs.png"
+            alt="Mangomind Logo"
+            width="110"
+            height="40"
+            style={{ height: '40px', width: 'auto' }}
+          />
         </Link>
 
         {/* Desktop Menu */}
@@ -36,6 +42,7 @@ const Navbar = () => {
           <button
             onClick={toggleLanguage}
             className="flex-center"
+            aria-label="Toggle Language"
             style={{
               background: 'rgba(255,255,255,0.05)',
               border: '1px solid rgba(255,255,255,0.1)',
@@ -64,6 +71,7 @@ const Navbar = () => {
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="mobile-toggle flex-center"
+          aria-label="Toggle Menu"
           style={{
             background: 'rgba(255,255,255,0.05)',
             border: 'none',

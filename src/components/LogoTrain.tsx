@@ -19,11 +19,8 @@ const LogoTrain = () => {
 
     return (
         <section className="logo-train-section" style={{
-            padding: '2rem 0',
-            background: 'rgba(0,0,0,0.3)',
-            backdropFilter: 'blur(10px)',
-            borderTop: '1px solid rgba(255,255,255,0.05)',
-            borderBottom: '1px solid rgba(255,255,255,0.05)',
+            padding: '1.5rem 0',
+            background: '#bd4e00',
             overflow: 'hidden',
             position: 'relative',
             zIndex: 10
@@ -34,8 +31,8 @@ const LogoTrain = () => {
                     left: 0,
                     top: 0,
                     bottom: 0,
-                    width: '150px',
-                    background: 'linear-gradient(to right, var(--bg-primary), transparent)',
+                    width: '100px',
+                    background: 'linear-gradient(to right, #bd4e00, transparent)',
                     zIndex: 2,
                     pointerEvents: 'none'
                 }} />
@@ -44,8 +41,8 @@ const LogoTrain = () => {
                     right: 0,
                     top: 0,
                     bottom: 0,
-                    width: '150px',
-                    background: 'linear-gradient(to left, var(--bg-primary), transparent)',
+                    width: '100px',
+                    background: 'linear-gradient(to left, #bd4e00, transparent)',
                     zIndex: 2,
                     pointerEvents: 'none'
                 }} />
@@ -75,26 +72,29 @@ const LogoTrain = () => {
                             alignItems: 'center',
                             justifyContent: 'center',
                             minWidth: '120px',
-                            height: '50px',
+                            height: '40px',
                         }}>
                             <img
                                 src={brand.logo}
                                 alt={brand.name}
                                 style={{
-                                    maxHeight: '35px',
+                                    height: '32px',
+                                    width: 'auto',
                                     maxWidth: '120px',
                                     objectFit: 'contain',
-                                    filter: 'grayscale(1) brightness(0.8) contrast(1.2)',
-                                    opacity: 0.6,
+                                    filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))',
+                                    opacity: 0.9,
                                     transition: 'all 0.3s ease'
                                 }}
                                 onMouseOver={(e) => {
-                                    e.currentTarget.style.filter = 'grayscale(0) brightness(1) contrast(1)';
                                     e.currentTarget.style.opacity = '1';
+                                    e.currentTarget.style.transform = 'scale(1.1)';
+                                    e.currentTarget.style.filter = 'drop-shadow(0 4px 8px rgba(0,0,0,0.2))';
                                 }}
                                 onMouseOut={(e) => {
-                                    e.currentTarget.style.filter = 'grayscale(1) brightness(0.8) contrast(1.2)';
-                                    e.currentTarget.style.opacity = '0.6';
+                                    e.currentTarget.style.opacity = '0.9';
+                                    e.currentTarget.style.transform = 'scale(1)';
+                                    e.currentTarget.style.filter = 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))';
                                 }}
                             />
                         </div>

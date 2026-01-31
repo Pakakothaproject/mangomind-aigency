@@ -58,7 +58,7 @@ const Blogs = () => {
                             style={{ padding: '0', overflow: 'hidden' }}
                         >
                             <div style={{ height: '200px', overflow: 'hidden' }}>
-                                <img src={blog.image} alt={blog.title} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s ease' }} />
+                                <img src={blog.image} alt={blog.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s ease' }} />
                             </div>
                             <div style={{ padding: '2rem' }}>
                                 <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '1rem', fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>
@@ -67,7 +67,12 @@ const Blogs = () => {
                                 </div>
                                 <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem', lineHeight: '1.4' }}>{blog.title}</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>{blog.excerpt}</p>
-                                <Link to={`/blog/${blog.id}`} className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', color: 'var(--accent-orange)', fontWeight: 'bold', textDecoration: 'none' }}>
+                                <Link
+                                    to={`/blog/${blog.id}`}
+                                    className="flex-center"
+                                    style={{ justifyContent: 'flex-start', gap: '0.5rem', color: 'var(--accent-orange)', fontWeight: 'bold', textDecoration: 'none' }}
+                                    aria-label={`${t.blogs.readMore} about ${blog.title}`}
+                                >
                                     {t.blogs.readMore} <ArrowRight size={16} />
                                 </Link>
                             </div>

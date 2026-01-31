@@ -24,29 +24,35 @@ const Footer = () => {
     const { t } = useLanguage();
 
     return (
-        <footer style={{ background: 'var(--bg-secondary)', borderTop: '1px solid var(--glass-border)', padding: '4rem 0 2rem' }}>
+        <footer id="main-footer" style={{ background: 'var(--bg-secondary)', borderTop: '1px solid var(--glass-border)', padding: '4rem 0 2rem' }}>
             <div className="container">
                 <div className="footer-grid">
 
                     {/* Brand */}
                     <div style={{ maxWidth: '300px' }}>
                         <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '1rem' }}>
-                            <img src="/scs.png" alt="Mangomind Logo" style={{ height: '40px', width: 'auto' }} />
+                            <img
+                                src="/scs.png"
+                                alt="Mangomind Logo"
+                                width="110"
+                                height="40"
+                                style={{ height: '40px', width: 'auto' }}
+                            />
                             <span style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>Mangomind</span>
                         </div>
                         <p style={{ fontSize: '0.9rem', marginBottom: '1.5rem' }}>
                             {t.footer.about}
                         </p>
                         <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '1rem' }}>
-                            <a href="https://www.facebook.com/mangomindAI/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} title="Facebook"><FacebookIcon /></a>
-                            <a href="https://x.com/MangomindAi/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} title="X (Twitter)"><XIcon /></a>
-                            <a href="https://huggingface.co/MangoMindAI" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} title="Hugging Face"><HuggingFaceIcon /></a>
+                            <a href="https://www.facebook.com/mangomindAI/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} title="Facebook" aria-label="Follow us on Facebook"><FacebookIcon /></a>
+                            <a href="https://x.com/MangomindAi/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} title="X (Twitter)" aria-label="Follow us on X (Twitter)"><XIcon /></a>
+                            <a href="https://huggingface.co/MangoMindAI" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} title="Hugging Face" aria-label="Follow us on Hugging Face"><HuggingFaceIcon /></a>
                         </div>
                     </div>
 
                     {/* Links */}
                     <div className="flex-col gap-4">
-                        <h4 style={{ color: 'white', marginBottom: '0.5rem' }}>{t.footer.company}</h4>
+                        <h3 style={{ color: 'white', marginBottom: '0.5rem', fontSize: '1.1rem' }}>{t.footer.company}</h3>
                         <a href="/#about" className="nav-link" style={{ fontSize: '0.9rem' }}>{t.footer.aboutUs}</a>
                         <a href="/#services" className="nav-link" style={{ fontSize: '0.9rem' }}>{t.footer.services}</a>
                         <a href="/models" className="nav-link" style={{ fontSize: '0.9rem' }}>{t.footer.models}</a>
@@ -55,7 +61,7 @@ const Footer = () => {
 
                     {/* Contact */}
                     <div className="flex-col gap-4">
-                        <h4 style={{ color: 'white', marginBottom: '0.5rem' }}>{t.footer.contact}</h4>
+                        <h3 style={{ color: 'white', marginBottom: '0.5rem', fontSize: '1.1rem' }}>{t.footer.contact}</h3>
                         <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
                             <Mail size={16} />
                             <span>agent@mangomindbd.com</span>
