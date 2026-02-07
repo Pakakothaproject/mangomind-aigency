@@ -4,6 +4,14 @@ import { Link } from 'react-router-dom';
 
 const blogs = [
     {
+        id: 'feb-2026-benchmark-report',
+        image: "/blogs/Feb 1.jpg",
+        date: "Feb 7, 2026",
+        author: "AI Research",
+        title: "February 2026 Benchmark Report: The State of AI",
+        excerpt: "Comprehensive comparison of Gemini 3, Sonnet 5, and the shifting landscape of model efficiency."
+    },
+    {
         id: 'feb-2026-top-models',
         image: "/blogs/february benchamarks.png",
         date: "Feb 7, 2026",
