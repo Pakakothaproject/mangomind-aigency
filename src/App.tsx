@@ -13,6 +13,8 @@ const BlogIndex = lazy(() => import('./pages/BlogIndex'));
 const AIStartups = lazy(() => import('./pages/blogs/AIStartups'));
 const VoiceSearch = lazy(() => import('./pages/blogs/VoiceSearch'));
 const AISEO2026 = lazy(() => import('./pages/blogs/AISEO2026'));
+const BestLocalModels = lazy(() => import('./pages/blogs/BestLocalModels'));
+const OpenClawNotReady = lazy(() => import('./pages/blogs/OpenClawNotReady'));
 const Feb2026Benchmarks = lazy(() => import('./pages/blogs/Feb2026Benchmarks'));
 const AILeaders2026 = lazy(() => import('./pages/blogs/AILeaders2026'));
 const AIJobsBangladesh = lazy(() => import('./pages/blogs/AIJobsBangladesh'));
@@ -54,6 +56,8 @@ function App() {
               <Route path="/blogs" element={<BlogIndex />} />
               <Route path="/blog/ai-startups" element={<AIStartups />} />
               <Route path="/blog/voice-search" element={<VoiceSearch />} />
+              <Route path="/blog/best-local-models" element={<BestLocalModels />} />
+              <Route path="/blog/openclaw-not-ready" element={<OpenClawNotReady />} />
               <Route path="/blog/ai-seo-2026" element={<AISEO2026 />} />
               <Route path="/blog/feb-2026-benchmarks" element={<Feb2026Benchmarks />} />
               <Route path="/blog/ai-leaders-2026" element={<AILeaders2026 />} />

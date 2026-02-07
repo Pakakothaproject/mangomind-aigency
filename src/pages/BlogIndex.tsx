@@ -4,6 +4,22 @@ import { Link } from 'react-router-dom';
 
 const blogs = [
     {
+        id: 'best-local-models',
+        image: "/blogs/ollama models openclaw.png",
+        date: "Feb 7, 2026",
+        author: "Hardware Lab",
+        title: "Best Local Models for OpenClaw & Moltbot (2026)",
+        excerpt: "Ranked list of top LLMs for agents: DeepSeek V3, Qwen 2.5, and efficient 7B models."
+    },
+    {
+        id: 'openclaw-not-ready',
+        image: "/blogs/Openrouter openclaw models 1.png",
+        date: "Feb 7, 2026",
+        author: "Tech Analysis",
+        title: "Why OpenClaw Is Not Ready for Consumers Yet",
+        excerpt: "High API costs, hardware barriers, and the trap of 'free' tiers make it a difficult sell for hobbyists."
+    },
+    {
         id: 'feb-2026-benchmarks',
         image: "/blogs/ai-leaders-2026-hero.png",
         date: "Feb 5, 2026",
