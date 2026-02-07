@@ -4,6 +4,14 @@ import { Link } from 'react-router-dom';
 
 const blogs = [
     {
+        id: 'feb-2026-top-models',
+        image: "/blogs/february benchamarks.png",
+        date: "Feb 7, 2026",
+        author: "Market Watch",
+        title: "Top AI Models of February 2026",
+        excerpt: "The new kings of code: Sonnet 5, GPT-5.2, and the rise of Flash reasoning."
+    },
+    {
         id: 'best-local-models',
         image: "/blogs/ollama models openclaw.png",
         date: "Feb 7, 2026",

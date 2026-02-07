@@ -50,6 +50,10 @@ const BestLocalModels = () => {
                                 description="Frontier reasoning specialist with 128K context. Excels in math and complex coding tasks."
                                 specs={['128K Context', 'Requires 2x3090 / 4090', 'Ollama Only']}
                                 type="Reasoning"
+                                benchmarks={[
+                                    { speed: '2-3 t/s', hardware: 'Single RTX 4090' },
+                                    { speed: 'OOM', hardware: 'Single RTX 3090' }
+                                ]}
                             />
                             <ModelCard
                                 name="Qwen2.5-72B"
@@ -57,6 +61,10 @@ const BestLocalModels = () => {
                                 description="Strong generalist with multilingual support. Currently the top open-weight model for pure coding tasks."
                                 specs={['32K Context', '48GB+ VRAM', 'Coding Specialist']}
                                 type="Coding"
+                                benchmarks={[
+                                    { speed: '18 t/s', hardware: 'Dual RTX 4090' },
+                                    { speed: '13 t/s', hardware: 'Dual RTX 3090' }
+                                ]}
                             />
                             <ModelCard
                                 name="Llama 3.3-70B"
@@ -64,6 +72,10 @@ const BestLocalModels = () => {
                                 description="Meta's reasoning workhorse. Community-tuned versions perform exceptionally well for complex logic chains."
                                 specs={['8K Context', '40GB+ VRAM', 'Logic Specialist']}
                                 type="General"
+                                benchmarks={[
+                                    { speed: '16 t/s', hardware: 'Dual RTX 3090' },
+                                    { speed: '60 t/s', hardware: 'Single 4090 (IQ2)' }
+                                ]}
                             />
                         </div>
                     </div>
@@ -140,7 +152,7 @@ const BestLocalModels = () => {
     );
 };
 
-const ModelCard = ({ name, params, description, specs, type }: any) => (
+const ModelCard = ({ name, params, description, specs, type, benchmarks }: any) => (
     <div className="glass-card" style={{ padding: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem', transition: 'transform 0.2s', border: '1px solid rgba(255,255,255,0.05)' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
             <div>
@@ -152,6 +164,21 @@ const ModelCard = ({ name, params, description, specs, type }: any) => (
         <p style={{ margin: 0, fontSize: '1rem', color: 'rgba(255,255,255,0.8)' }}>
             {description}
         </p>
+
+        {benchmarks && (
+            <div style={{ background: 'rgba(0,0,0,0.3)', padding: '0.75rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Real-World Speed</div>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem' }}>
+                    {benchmarks.map((b: any, i: number) => (
+                        <div key={i}>
+                            <div style={{ fontSize: '0.9rem', color: 'var(--accent-orange)', fontWeight: 'bold' }}>{b.speed}</div>
+                            <div style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.5)' }}>{b.hardware}</div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        )}
+
         <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginTop: '0.5rem' }}>
             {specs.map((spec: string, i: number) => (
                 <div key={i} style={{

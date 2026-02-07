@@ -91,7 +91,10 @@ const OpenClawNotReady = () => {
                     >
                         <img src="/blogs/Openrouter openclaw models 2.png" alt="OpenClaw Cost Analysis" style={{ width: '100%', height: 'auto', display: 'block' }} />
                         <div style={{ padding: '1rem', background: 'rgba(0,0,0,0.6)', fontSize: '0.9rem', color: 'var(--text-secondary)', textAlign: 'center' }}>
-                            Real-world example: Costs scaling unexpectedly high for simple tasks.
+                            <strong>The "Phantom Cost" Reality:</strong><br />
+                            OpenClaw's heartbeat checks and context re-sending can burn tokens rapidly.<br />
+                            <span style={{ color: 'var(--accent-orange)' }}>DeepSeek V3:</span>Cheap ($0.07/1M) but slow (2-3 t/s).<br />
+                            <span style={{ color: 'var(--accent-orange)' }}>Llama 3.3 70B:</span> Fast (~100 t/s API) but expensive ($0.59/1M).
                         </div>
                     </motion.div>
 
