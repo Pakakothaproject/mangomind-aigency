@@ -4,6 +4,22 @@ import { Link } from 'react-router-dom';
 
 const blogs = [
     {
+        id: 'grok-imagine-review',
+        image: "/blogs/grok.png",
+        date: "Feb 9, 2026",
+        author: "AI Research",
+        title: "Grok Imagine Review: The Future of AI Media",
+        excerpt: "Text-to-Video, Image-to-Video, and Uncensored creative freedom. Is it the best all-in-one AI media tool?"
+    },
+    {
+        id: 'model-comparison-2026',
+        image: "/blogs/grokvsnano.png",
+        date: "Feb 9, 2026",
+        author: "MangoMind AI Research",
+        title: "Nano Banana vs Qwen vs Grok: The 2026 Showdown",
+        excerpt: "A comprehensive comparison: Cost, creative freedom, and reliability benchmarks."
+    },
+    {
         id: 'feb-2026-benchmark-report',
         image: "/blogs/Feb 1.jpg",
         date: "Feb 7, 2026",

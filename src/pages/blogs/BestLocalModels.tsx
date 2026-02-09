@@ -163,7 +163,7 @@ const BestLocalModels = () => {
                         <div style={{ marginTop: '4rem', padding: '3rem', background: 'var(--bg-secondary)', borderRadius: '24px', textAlign: 'center', border: '1px solid var(--accent-orange)' }}>
                             <h3 style={{ marginBottom: '1rem', fontSize: '1.75rem' }}>Need Help Setting Up?</h3>
                             <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>Our team builds custom local AI rigs and agent workflows for businesses.</p>
-                            <Link to="/#contact" className="btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2.5rem' }}>Get Expert Help →</Link>
+                            <Link to="/" className="btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2.5rem' }}>Get Expert Help →</Link>
                         </div>
 
                     </div>

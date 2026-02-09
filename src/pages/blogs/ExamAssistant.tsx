@@ -83,7 +83,7 @@ const ExamAssistantBlog = () => {
                     <div style={{ marginTop: '4rem', padding: '3rem', background: 'var(--bg-secondary)', borderRadius: '24px', textAlign: 'center', border: '1px solid var(--accent-orange)' }}>
                         <h3 style={{ marginBottom: '1rem', fontSize: '1.75rem' }}>Ready to Study Smarter?</h3>
                         <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>Download the Exam Support AI today from your dashboard.</p>
-                        <Link to="/#contact" className="btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2.5rem' }}>Download Assistant →</Link>
+                        <Link to="/" className="btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2.5rem' }}>Download Assistant →</Link>
                         <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '2rem' }}>*Please use responsibly and adhere to academic integrity guidelines.*</p>
                     </div>
                 </div>

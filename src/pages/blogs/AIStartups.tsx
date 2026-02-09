@@ -167,7 +167,7 @@ const AIStartups = () => {
                     <div style={{ marginTop: '4rem', padding: '3rem', background: 'var(--bg-secondary)', borderRadius: '24px', textAlign: 'center', border: '1px solid var(--accent-orange)' }}>
                         <h3 style={{ marginBottom: '1rem', fontSize: '1.75rem' }}>Ready to Automate Your Startup?</h3>
                         <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>Get a custom automation roadmap designed for your specific business goals—free initial consultation.</p>
-                        <Link to="/#contact" className="btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2.5rem' }}>Talk to an AI Architect →</Link>
+                        <Link to="/" className="btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2.5rem' }}>Talk to an AI Architect →</Link>
                     </div>
                 </div>
             </div>

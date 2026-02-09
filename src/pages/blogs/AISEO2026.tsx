@@ -267,7 +267,7 @@ const AISEO2026 = () => {
                     <div style={{ marginTop: '4rem', padding: '3rem', background: 'var(--bg-secondary)', borderRadius: '24px', textAlign: 'center', border: '1px solid var(--accent-orange)' }}>
                         <h3 style={{ marginBottom: '1rem', fontSize: '1.75rem' }}>Ready to Dominate Search in 2026?</h3>
                         <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>Get an AI-powered SEO audit and discover exactly where your site stands—and what it takes to reach #1.</p>
-                        <Link to="/#contact" className="btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2.5rem' }}>Request Your SEO Audit →</Link>
+                        <Link to="/" className="btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2.5rem' }}>Request Your SEO Audit →</Link>
                     </div>
                 </div>
             </div>

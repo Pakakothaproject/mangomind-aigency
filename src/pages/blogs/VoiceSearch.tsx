@@ -213,7 +213,7 @@ const VoiceSearch = () => {
                     <div style={{ marginTop: '4rem', padding: '3rem', background: 'var(--bg-secondary)', borderRadius: '24px', textAlign: 'center', border: '1px solid var(--accent-orange)' }}>
                         <h3 style={{ marginBottom: '1rem', fontSize: '1.75rem' }}>Ready to Optimize for Voice?</h3>
                         <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>Get a voice search audit and discover how to capture the 60%+ of queries happening through voice assistants.</p>
-                        <Link to="/#contact" className="btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2.5rem' }}>Request Your Voice Audit →</Link>
+                        <Link to="/" className="btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2.5rem' }}>Request Your Voice Audit →</Link>
                     </div>
                 </div>
             </div>

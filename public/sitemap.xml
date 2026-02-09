@@ -121,7 +121,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://mangomindbd.com/blog/grok-imagine-review</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://mangomindbd.com/blog/kimi-benchmarks</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mangomindbd.com/blog/model-comparison2026</loc>
     <lastmod>2026-02-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
