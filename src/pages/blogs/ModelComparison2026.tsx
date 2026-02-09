@@ -52,7 +52,7 @@ const ModelComparison2026 = () => {
                     >
                         <div style={{ width: '100%', height: '400px', background: 'linear-gradient(to bottom right, #111, #222)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                             {/* Placeholder for the chart image if needed, but we have interactive graphs below */}
-                            <img src="/blogs/model-comparison-chart.png" alt="Model Comparison Chart" style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.8 }} />
+                            <img src="/blogs/grokvsnano.png" alt="Model Comparison Chart" style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.8 }} />
                         </div>
                     </motion.div>
 
