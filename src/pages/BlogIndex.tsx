@@ -4,6 +4,14 @@ import { Link } from 'react-router-dom';
 
 const blogs = [
     {
+        id: 'seedance-2-video-marketing',
+        image: "/blogs/seedance-2-video-marketing.png",
+        date: "Feb 11, 2026",
+        author: "MangoMind AI Research",
+        title: "Seedance 2.0: The End of Manual Video Production?",
+        excerpt: "ByteDance's new AI model + MangoMind Agents = The ultimate viral video workflow for 2026."
+    },
+    {
         id: 'grok-imagine-review',
         image: "/blogs/grok.png",
         date: "Feb 9, 2026",

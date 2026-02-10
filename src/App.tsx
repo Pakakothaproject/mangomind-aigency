@@ -30,6 +30,7 @@ const GLMvsGemini = lazy(() => import('./pages/blogs/GLMvsGemini'));
 const AIStudioBD = lazy(() => import('./pages/blogs/AIStudioBD'));
 const ExamAssistant = lazy(() => import('./pages/blogs/ExamAssistant'));
 const AIDetectors = lazy(() => import('./pages/blogs/AIDetectors'));
+const Seedance2VideoMarketing = lazy(() => import('./pages/blogs/Seedance2VideoMarketing'));
 
 // Loading fallback component
 const PageLoader = () => (
@@ -78,6 +79,7 @@ function App() {
               <Route path="/blog/ai-studio-bd" element={<AIStudioBD />} />
               <Route path="/blog/exam-assistant" element={<ExamAssistant />} />
               <Route path="/blog/ai-truth-detectors" element={<AIDetectors />} />
+              <Route path="/blog/seedance-2-video-marketing" element={<Seedance2VideoMarketing />} />
             </Routes>
           </Suspense>
         </main>

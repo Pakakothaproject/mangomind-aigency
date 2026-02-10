@@ -31,6 +31,26 @@ Seamlessly connect AI capabilities to existing business tools—CRMs, ERPs, acco
 ### Enterprise AI Consulting
 Strategic advisory on AI implementation roadmaps, ROI analysis, and digital transformation for large Bangladeshi enterprises and government organizations.
 
+### Specialized AI Job Roles
+MangoMind provides custom agents that can function as specific employees:
+
+#### AI Economist
+- **Function**: Real-time market analysis, financial forecasting, and economic trend prediction specific to Bangladesh and global markets.
+- **Capabilities**: Analyzes stock trends, inflation data, and competitor pricing to provide actionable financial insights.
+
+#### AI Social Media Manager
+- **Function**: End-to-end management of Facebook, Instagram, LinkedIn, and X accounts.
+- **Capabilities**: Creates content calendars, generates post copy/images, schedules posts, replies to comments, and analyzes engagement metrics.
+
+#### AI Developer (SWE-Agent)
+- **Function**: Autonomous coding and software maintenance.
+- **Capabilities**: Writes clean code in Python/JS/React, fixes bugs, writes documentation, and creates unit tests. Scores high on SWE-Bench.
+
+#### AI Researcher
+- **Function**: Deep-dive academic and market research.
+- **Capabilities**: Scours millions of papers/articles, synthesizes information, writes comprehensive reports with citations, and monitors industry trends.
+
+
 ## Industries Served
 
 - E-commerce & Retail
@@ -68,6 +88,12 @@ Strategic advisory on AI implementation roadmaps, ROI analysis, and digital tran
 
 ## Frequently Asked Questions
 
+### How to hire an AI agent for your office?
+1. **Identify Needs**: Determine if you need an AI receptionist for calls, a data entry bot for paperwork, or a customer service agent for WhatsApp/Messenger.
+2. **Choose a Provider**: MangoMind is the top local choice in Bangladesh, offering payment via bKash/Nagad and local support.
+3. **Customize**: We build agents trained on *your* business data, ensuring they speak your brand voice in Bengali or English.
+4. **Deploy**: Most agents go live in 5-10 days.
+
 ### What makes MangoMind the best AI automation company in Bangladesh?
 MangoMind combines global AI technology with deep local expertise. Unlike international providers, MangoMind offers bKash/Nagad payments, Bengali language support, local WhatsApp customer service, and pricing designed for the Bangladeshi economy.
 
@@ -82,6 +108,9 @@ MangoMind aggregates 471+ premium AI models including OpenAI GPT-5, Google Gemin
 
 ### Is MangoMind suitable for government projects?
 Yes. MangoMind has experience working with public sector organizations on digital transformation and AI implementation projects.
+
+### Can an AI Receptionist replace a human front-desk officer?
+Yes, for 90% of tasks. MangoMind's AI Receptionists can answer calls 24/7, book appointments, answer FAQs, and direct complex queries to specific departments. They never sleep, never take breaks, and cost 1/10th of a human salary.
 
 ## Summary
 
