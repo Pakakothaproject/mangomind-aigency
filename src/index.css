@@ -345,6 +345,10 @@ p {
   border-color: rgba(249, 115, 22, 0.3);
 }
 
+.glass-card:hover .blog-card-image {
+  transform: scale(1.05);
+}
+
 .card-icon {
   width: 3.5rem;
   height: 3.5rem;

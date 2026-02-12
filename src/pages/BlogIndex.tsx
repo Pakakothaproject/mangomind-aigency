@@ -204,20 +204,22 @@ const BlogIndex = () => {
                                 className="glass-card"
                                 style={{ padding: '0', overflow: 'hidden' }}
                             >
-                                <div style={{ height: '200px', overflow: 'hidden' }}>
-                                    <img src={blog.image} alt={blog.title} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s ease' }} />
-                                </div>
-                                <div style={{ padding: '2rem' }}>
-                                    <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '1rem', fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>
-                                        <span className="flex-center" style={{ gap: '0.3rem' }}><Calendar size={14} /> {blog.date}</span>
-                                        <span className="flex-center" style={{ gap: '0.3rem' }}><User size={14} /> {blog.author}</span>
+                                <Link to={`/blog/${blog.id}`} style={{ textDecoration: 'none', color: 'inherit', display: 'block', height: '100%' }}>
+                                    <div style={{ height: '200px', overflow: 'hidden' }}>
+                                        <img className="blog-card-image" src={blog.image} alt={blog.title} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s ease' }} />
                                     </div>
-                                    <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem', lineHeight: '1.4' }}>{blog.title}</h3>
-                                    <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>{blog.excerpt}</p>
-                                    <Link to={`/blog/${blog.id}`} className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', color: 'var(--accent-orange)', fontWeight: 'bold', textDecoration: 'none' }}>
-                                        Read Article <ArrowRight size={16} />
-                                    </Link>
-                                </div>
+                                    <div style={{ padding: '2rem' }}>
+                                        <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '1rem', fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>
+                                            <span className="flex-center" style={{ gap: '0.3rem' }}><Calendar size={14} /> {blog.date}</span>
+                                            <span className="flex-center" style={{ gap: '0.3rem' }}><User size={14} /> {blog.author}</span>
+                                        </div>
+                                        <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem', lineHeight: '1.4', color: 'var(--text-primary)' }}>{blog.title}</h3>
+                                        <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>{blog.excerpt}</p>
+                                        <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', color: 'var(--accent-orange)', fontWeight: 'bold' }}>
+                                            Read Article <ArrowRight size={16} />
+                                        </div>
+                                    </div>
+                                </Link>
                             </motion.div>
                         ))}
                     </div>
